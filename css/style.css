@@ -3920,6 +3920,8 @@ footer
 
 	margin-top: 10px;
 
+	margin-left: 25px;
+
 }
 
 .contact-information-title
@@ -4060,7 +4062,6 @@ footer
 
 	margin-top: 10px;
 
-	margin-left: 4%;
 
 }
 
@@ -4356,7 +4357,7 @@ footer
 
 	position:relative;
 
-	float:right;
+	float:left;
 
 	right: 0px;
 
