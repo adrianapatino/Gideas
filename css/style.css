@@ -5389,7 +5389,9 @@ h1, h2, h3, h4, h5, h6
 
 	float:left;*/
 
-	display: inline-block;
+	/*display: inline-block;*/
+	right: 15%;
+	top: 25%;
 
     position: relative;
 
@@ -5405,7 +5407,9 @@ h1, h2, h3, h4, h5, h6
 
 	width:380px;
 
-	height:100%;
+	height:25%;
+
+	min-height: 200px;
 
 	background-color:#FFFFFF;
 
@@ -7737,7 +7741,7 @@ h1, h2, h3, h4, h5, h6
 
 	
 
-	.full-width-info-container{ width: 100%; }
+	.full-width-info-container{ width: 50%;  min-height: 200px; margin-top: -25%; margin-left: 36%;}
 
 	.full-width-info-holder{ margin: 3%; width: 94%; }
 
