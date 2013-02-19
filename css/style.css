@@ -2028,7 +2028,7 @@ footer
 
 {
 
-	-moz-box-shadow: -1px 1px 2px #0c0c0c;
+/*	-moz-box-shadow: -1px 1px 2px #0c0c0c;
 
 	-webkit-box-shadow: -1px 1px 2px #0c0c0c;
 
@@ -2036,7 +2036,7 @@ footer
 
 	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=-120, Color='#0c0c0c')";/* For IE 8 */	
 
-	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=-120, Color='#0c0c0c');/* For IE 5.5 - 7 */
+	/*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=-120, Color='#0c0c0c');/* For IE 5.5 - 7 */
 
 }
 
@@ -5411,7 +5411,7 @@ h1, h2, h3, h4, h5, h6
 
 	min-height: 200px;
 
-	background-color:#FFFFFF;
+	/*background-color:#FFFFFF;*/
 
 }
 
@@ -5463,9 +5463,9 @@ h1, h2, h3, h4, h5, h6
 
 	font-weight: normal;
 
-	font-size:18px;
+	font-size:60px;
 
-	color:#3f3f3f;
+	color:#FFF;
 
     text-align:justify;
 
@@ -5477,7 +5477,20 @@ h1, h2, h3, h4, h5, h6
 
 	line-height:140%;
 
-	font-size:13px;
+	font-size:18px;
+
+	margin-top: 20px;	
+
+}
+
+
+.contenido .full-width-info-holder-desc span
+
+{
+
+	line-height:140%;
+
+	font-size:35px;
 
 	margin-top: 20px;	
 
