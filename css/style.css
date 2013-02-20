@@ -7823,3 +7823,21 @@ h1, h2, h3, h4, h5, h6
     .full-width-info-holder-desc span, .custom-separator{ margin-top: 10px; }
 
 } 
+
+.whatwedomenu{
+	z-index: 3;
+}
+.whatwedomenu .filter-button{
+	float:left;
+}
+.whatwedomenu .filter-button:hover{
+	background-color: #FFFFFF;
+	color:#3F3F3F;
+}
+.whatwedomenu .filter-button a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.whatwedomenu .filter-button a{
+	text-decoration: none;
+}
