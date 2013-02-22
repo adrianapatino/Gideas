@@ -3026,7 +3026,7 @@ footer
 
 }
 
-#module-background{ z-index: 2; }
+#module-background{ z-index: 0; }
 
 .module-background
 
