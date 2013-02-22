@@ -8039,7 +8039,7 @@ h1, h2, h3, h4, h5, h6
 	left: 350px;
 	cursor: pointer;
 }
-triangle1{
+.triangle1{
 	background-color: #FFFFFF;
     height: 39% !important;
     margin-top: -7%;
