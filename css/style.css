@@ -8039,3 +8039,99 @@ h1, h2, h3, h4, h5, h6
 	left: 350px;
 	cursor: pointer;
 }
+triangle1{
+	background-color: #FFFFFF;
+    height: 39% !important;
+    margin-top: -7%;
+    min-height: 100px;
+    transform: skewY(-8deg);
+    -ms-transform:  skewY(-8deg); /* IE 9 */
+	-webkit-transform:  skewY(-8deg); /* Safari and Chrome */
+	-o-transform:  skewY(-8deg); /* Opera */
+	-moz-transform:  skewY(-8deg); /* Firefox */
+    width: 100% !important;
+}
+.triangle2{
+	background: url("../assets/media/about_us/about_us/bgvideo.jpg") no-repeat scroll center center #000000;
+    height: 28% !important;
+    min-height: 100px;
+    min-width: 800px;
+    transform: skewY(-7deg);
+	-ms-transform:  skewY(-7deg); /* IE 9 */
+	-webkit-transform:  skewY(-7deg); /* Safari and Chrome */
+	-o-transform:  skewY(-7deg); /* Opera */
+	-moz-transform:  skewY(-7deg); /* Firefox */
+    width: 100% !important;
+}
+.triangle3{
+	background: url("../assets/media/about_us/about_us/roboland.jpg") no-repeat scroll center center / 100% auto transparent;
+    height: 54% !important;
+    transform: skewY(10deg);
+    -ms-transform:  skewY(10deg); /* IE 9 */
+	-webkit-transform:  skewY(10deg); /* Safari and Chrome */
+	-o-transform:  skewY(10deg); /* Opera */
+	-moz-transform:  skewY(10deg); /* Firefox */
+    width: 100% !important;
+}
+.t1_container1,.t1_container2,.t1_container3,.t1_container4{cursor: pointer;}
+.t1_container1{
+	background: url("../assets/media/about_us/about_us/A1.png") no-repeat scroll left top / 71% auto #FFFFFF;
+    float: left;
+    height: 95% !important;
+    margin-top: 0;
+    width: 25% !important;
+}
+.t1_container1:hover{
+	background: url("../assets/media/about_us/about_us/A1O.png") no-repeat scroll left top / 71% auto #FFFFFF;
+}
+.t1_container2{
+	background:url("../assets/media/about_us/about_us/A2.png") top center no-repeat #FFFFFF;
+	background-size:84%;
+    height: 100% !important;
+    width: 25% !important;
+	float: left;
+}
+.t1_container2:hover{
+	background:url("../assets/media/about_us/about_us/A2O.png") top center no-repeat #FFFFFF;
+	background-size:84%;
+}
+.t1_container3{
+	 background: url("../assets/media/about_us/about_us/A3.png") no-repeat scroll center top / 100% auto #FFFFFF;
+    float: left;
+    height: 90% !important;
+    margin-top: 7%;
+    width: 25% !important;
+}
+.t1_container3:hover{
+	 background: url("../assets/media/about_us/about_us/A3O.png") no-repeat scroll center top / 100% auto #FFFFFF;
+}
+.t1_container4{
+	background: url("../assets/media/about_us/about_us/A4.png") no-repeat scroll right top / 80% auto #FFFFFF;
+    float: left;
+    height: 90% !important;
+    margin-top: 6%;
+    width: 25% !important;
+}
+.t1_container4:hover{
+	background: url("../assets/media/about_us/about_us/A4O.png") no-repeat scroll right top / 80% auto #FFFFFF;
+}
+.t2_container1{
+	background: url("../assets/media/about_us/about_us/bgvideo.png") repeat scroll right top / 100% auto #000;
+    height: 260%;
+    margin-top: 1%;
+    width: 100%;
+}
+#preloader_landing {
+  /* la lista de imágenes a cargar */
+  background-image: url("../assets/media/about_us/about_us/A1O.png");
+  background-image: url("../assets/media/about_us/about_us/A2O.png");
+  background-image: url("../assets/media/about_us/about_us/A3O.png");
+  background-image: url("../assets/media/about_us/about_us/A4O.png");
+  /* y ocultaremos todo */
+  height: 0px;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  width: 0px;
+
+}
