@@ -8019,6 +8019,7 @@ h1, h2, h3, h4, h5, h6
     min-height: 100px;
     transform: skewY(-8deg);
     -ms-transform:  skewY(-8deg); /* IE 9 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=-0.14054083470239048, M22=1, SizingMethod='auto expand')"; /* IE8 */
 	-webkit-transform:  skewY(-8deg); /* Safari and Chrome */
 	-o-transform:  skewY(-8deg); /* Opera */
 	-moz-transform:  skewY(-8deg); /* Firefox */
@@ -8044,6 +8045,7 @@ h1, h2, h3, h4, h5, h6
     min-width: 800px;
     transform: skewY(-7deg);
 	-ms-transform:  skewY(-7deg); /* IE 9 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=-0.12278456090290474, M22=1, SizingMethod='auto expand')"; /*IE8*/
 	-webkit-transform:  skewY(-7deg); /* Safari and Chrome */
 	-o-transform:  skewY(-7deg); /* Opera */
 	-moz-transform:  skewY(-7deg); /* Firefox */
@@ -8054,6 +8056,7 @@ h1, h2, h3, h4, h5, h6
     height: 54% !important;
     transform: skewY(10deg);
     -ms-transform:  skewY(10deg); /* IE 9 */
+    ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0.17632698070846592, M22=1, SizingMethod='auto expand')"; /*IE8*/
 	-webkit-transform:  skewY(10deg); /* Safari and Chrome */
 	-o-transform:  skewY(10deg); /* Opera */
 	-moz-transform:  skewY(10deg); /* Firefox */
