@@ -7815,12 +7815,20 @@ h1, h2, h3, h4, h5, h6
 	.wrapper_nave img{ width: 50% !important;}
 	
 	.ctr{
-		margin-top: 10px !important;
+		margin-top: -80px !important;
 	}
 	.flc1{
 		margin-left: 159px !important;
 	}
 	.flc2{
+		margin-left: 232px !important;
+		margin-top: 32px !important;
+	}
+	.flc3{
+		margin-left: -17px !important;
+		margin-top: -37px !important;
+	}
+	.flc4{
 		margin-left: 145px !important;
 		margin-top: 32px !important;
 	}
