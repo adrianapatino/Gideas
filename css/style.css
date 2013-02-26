@@ -7795,6 +7795,35 @@ h1, h2, h3, h4, h5, h6
 
 } 
 
+
+@media only screen and (min-width: 1415px) and (max-width: 1522px){
+	.wrapper_nave{ width: 70%;}
+}
+
+@media only screen and (min-width: 1320px) and (max-width: 1415px){
+	.wrapper_nave{ width: 35%;}
+}
+@media only screen and (min-width: 1522px) and (max-width: 2000px){
+	.wrapper_nave{ width: 30% !important;}
+}
+@media only screen and (min-width: 548px) and (max-width: 1246px){
+	.wrapper_nave{ width: 70% !important;}
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 548px){
+	.wrapper_nave img{ width: 50% !important;}
+}
+
+
+
+.wrapper_nave{
+
+
+	width:55%;  float:left; position:relative; z-index:1000; margin-left:85px;
+}
+
+
 .whatwedomenu{
 	z-index: 3;
 }
