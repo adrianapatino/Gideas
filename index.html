@@ -125,7 +125,7 @@
                     var form = document.getElementById('jobcontact-form');
                     var formData = new FormData(form);
                     var xhr = new XMLHttpRequest();
-                    xhr.open('POST', 'http://lalo.local/Gideas/php/jobs.php', true);
+                    xhr.open('POST', 'php/jobs.php', true);
                     xhr.onload = function(event){
                         var json = xhr.responseText;
                         $('#jobmessage').html("<span style='color:red'>"+json+"</span>");
