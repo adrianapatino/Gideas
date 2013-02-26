@@ -7919,7 +7919,7 @@ h1, h2, h3, h4, h5, h6
 }
 .triangle1{
 	background-color: #FFFFFF;
-    height: 40% !important;
+    height: 42% !important;
     margin-top: -7%;
     min-height: 100px;
     transform: skewY(-8deg);
