@@ -7813,6 +7813,17 @@ h1, h2, h3, h4, h5, h6
 
 @media only screen and (min-width: 100px) and (max-width: 548px){
 	.wrapper_nave img{ width: 50% !important;}
+	
+	.ctr{
+		margin-top: 10px !important;
+	}
+	.flc1{
+		margin-left: 159px !important;
+	}
+	.flc2{
+		margin-left: 145px !important;
+		margin-top: 32px !important;
+	}
 }
 
 
