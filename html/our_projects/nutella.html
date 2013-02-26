@@ -6,7 +6,7 @@
 
 <head>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
 
@@ -20,13 +20,13 @@
 
     
 
-	<title>G ideas - The Red Mark (DEMO SITE by altusmedia)</title>
+    <title>G ideas - The Red Mark (DEMO SITE by altusmedia)</title>
 
     
 
-	<meta name="description" content="" />
+    <meta name="description" content="" />
 
-	<meta name="author" content="altusmedia" />
+    <meta name="author" content="altusmedia" />
 
         
 
@@ -54,7 +54,7 @@
 
         <!-- START TEMPLATE JavaScript load -->
 
-    	<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
+        <script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
 
         <script type="text/javascript" src="js/libs/modernizr.custom.min.js"></script> 
 
@@ -136,7 +136,7 @@
 
             <div id="template-logo" class="template-logo" data-href="#portfolio.html"></div> 
 
-            <div id="template-menu" class="template-menu" data-current-module-type="slideshow" data-side="none" data-href="#home_layout_1.html"><!-- start #template-menu -->
+            <div id="template-menu" class="template-menu" data-current-module-type="portfolio_columns" data-side="custom" data-href="#3_columns_portfolio.html"><!-- start #template-menu -->
 
                 <div class="menu-option-holder">
 
@@ -370,7 +370,7 @@
 
                     <div  class="menu-option-text"><a href="#contact.html" data-path-href="html/contact/">CONTACT US</a></div>
 
-                </div>            
+                </div>           
 
             </div><!-- end #template-menu -->  
 
@@ -483,143 +483,223 @@
     
 
     <div id="module-container"><!-- start #module-container -->
-        <div id="filter-buttons-holder" class="whatwedomenu">
-            <div class="filter-button selected"><a href="#p2.html">High Impact</a></div>
-            <div class="filter-button selected"><a href="#p3.html">hIgh Interaction</a></div>
-            <div class="filter-button selected"><a href="#p4.html">hiGh Promotiont</a></div>
-            <div class="filter-button selected"><a href="#p5.html">higH Entertainment</a></div>
-        </div>
 
-    	<div id="slideshow" data-auto-play="true" data-time="4">
+        <div id="module-background-holder">   
 
-        	<div class="slideshow-slide">
+            <!--<div id="module-background-solid1" class="opacity_0"></div> -->    
 
-            	<a href="#p2.html"><img src="assets/media/home/home_layout1/images/image1.jpg" onload="onFirstMediaLoaded()"  id="slide-current" alt="" /></a>
-
-            </div>
-
-            <div class="slideshow-slide">
-
-                <a href="#p3.html"><div id="slide-src" data-src="assets/media/home/home_layout1/images/image2.jpg"></div></a>
-
-            </div>
-
-            <div class="slideshow-slide">
-
-                <a href="#p4.html"><div id="slide-src" data-src="assets/media/home/home_layout1/images/image3.jpg"></div></a>  
-
-            </div>
-
-            <div class="slideshow-slide">
-
-                <a href="#p5.html"><div id="slide-src" data-src="assets/media/home/home_layout1/images/image4.jpg"></div></a>
-
-
-            </div>
+            <img src="assets/backg/fondo-store.jpg" onload="animateModuleBackground(this)" class="module-background" id="module-background" alt="" />
 
         </div>
 
-    	<div id="slideshow-thumbs">
+        <div id="module-container-holder" class="module-position-cc"  data-id="module-position-cc">
 
-            <div id="slideshow-thumbs-background" class="opacity_6"></div>
+            <div id="module-columns"  class="module-columns " > <!-- .shadow-side-all-->
 
-            <div id="slideshow-thumbs-holder">
+                <div id="module-columns-wrapper">
 
-                 <div class="slideshow-thumbs-arrow-backward">
+                    <div id="module-columns-container">
 
-                    <div class="slideshow-thumbs-arrow-backg opacity_2"></div>
+                        <div class="columns-filter-holder">
 
-                    <div class="slideshow-thumbs-arrow-backward-sign"></div>
+                            <div id="filter-buttons-holder">
 
-                </div>                 
-
-                 <div id="slideshow-thumbs-content">
-
-                        <div class="horizontal-fix-slideshow-thumbs">
-
-                            <div id="slideshow-thumbs-container">
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/home/home_layout1/thumbs/thumb1.jpg" width="105" height="70" alt="" />
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>  
-
-                                                                      
-
-                                </div>
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/home/home_layout1/thumbs/thumb2.jpg" width="105" height="70" alt="" />
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/home/home_layout1/thumbs/thumb3.jpg" width="105" height="70" alt="" />
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/home/home_layout1/thumbs/thumb4.jpg" width="105" height="70" alt="" />
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>
-
-                                </div>
-
-                                
+                              
 
                                
+
+                                <div class="filter-button selected" data-filter="*">Ver Todos</div>
+
+                            </div>
+
+                        </div>  
+
+                        <div class="columns-horizontal-separator"></div>         
+
+                        <div id="module-columns-holder"> 
+
+                            
+
+                           
+
+                            <div class="third-thumb-holder " data-id="illustration">
+
+                                <div class="third-thumb-image2">
+
+                                    <img src="assets/media/our_projects/projects/nutella.jpg" class="opacity_0" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+
+                                    <h1></h1>
+
+                                    <h2></h2>
+
+                                </div>                                                    
+
+                            </div>
+
+                           
+                           
+
+                            
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                    
+
+                <div id="module-columns-preview-wrapper">
+
+                    <div id="module-columns-preview"><!-- start #module-columns-preview -->
+
+                        <div id="module-columns-preview-holder">
+
+                            <div id="columns-preview-controls">
+
+                                  <div class="columns-preview-counter">
+
+                                    <span>x/x</span>
+
+                                  </div>
+
+                                  <div class="columns-preview-backward">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-backward-sign"></div>
+
+                                  </div>
+
+                                  <div class="columns-preview-close">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-close-sign"></div>
+
+                                  </div>
+
+                                  <div class="columns-preview-forward">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-forward-sign"></div>
+
+                                  </div>  
+
+                            </div>
+
+                            <div class="columns-horizontal-separator"></div>
+
+                            <div class="columns-preview-horizontal-fix">
+
+                                <div id="columns-slides-controls">
+
+                                    <div class="col-prev-media-arrow-backward">
+
+                                        <div class="col-prev-media-arrow-backg opacity_2"></div>
+
+                                        <div class="col-prev-media-arrow-backward-sign"></div>
+
+                                    </div>
+
+                                    <div class="col-prev-media-arrow-forward">
+
+                                        <div class="col-prev-media-arrow-backg opacity_2"></div>
+
+                                        <div class="col-prev-media-arrow-forward-sign"></div>
+
+                                    </div>                
+
+                                </div>
+
+                                <ul>
+
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/nutella/DEGUSTAND-GIDEAS-para--NUTELLA_IV-C-2-i.png"></div>
+
+                                        <div class="columns-preview-description">
+                                        <p style="color: #FFF; font-size:28px;">NUTELLA</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                               SAMPLING 2012<br><br><br></span><span style="color: #FFF; font-size:18px;">Esta mañana, para el desayuno:<br><br>    toda la ENERGÍA FÍSICA y MENTAL NECESARIA PARA SEGUIR TU DÍA, ¡en sólo 18 gramos de Nutella!
+
+                                            </span>
+
+                                           
+
+                                        </div>
+
+                                    </li>
+
+                                     <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/nutella/DEGUSTAND-GIDEAS-para--NUTELLA_IV-C-2--ii.png"></div>
+
+                                       <div class="columns-preview-description">
+                             <p style="color: #FFF; font-size:28px;">NUTELLA</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                               SAMPLING 2012<br><br><br></span><span style="color: #FFF; font-size:18px;">Esta mañana, para el desayuno:<br><br>    toda la ENERGÍA FÍSICA y MENTAL NECESARIA PARA SEGUIR TU DÍA, ¡en sólo 18 gramos de Nutella!
+
+                                            </span>
+
+                                           
+
+                                        </div>
+
+                                    </li>
+
+
+                                   
+                                   
+
+
+                                   
+
+                                </ul>    
 
                             </div>
 
                         </div>
 
-                 </div>                 
+                    </div> <!-- end #module-columns-preview --> 
 
-                 <div class="slideshow-thumbs-arrow-forward">
+                </div>
 
-                    <div class="slideshow-thumbs-arrow-backg opacity_2"></div>
+                    
 
-                    <div class="slideshow-thumbs-arrow-forward-sign"></div>
-
-                 </div>
-
-                 <div id="slideshow-thumbs-counter"> <span></span> </div>                 
+                <!--<div id="galleries-background" class="opacity_8"></div>-->  
 
             </div>
 
+            
+
         </div>
+
+        <div id="module-scrollbar-holder_v2">
+
+            <div id="module-scrollbar-background" class="opacity_8"></div>
+
+            <div id="module-scrollbar-dragger"></div>
+
+        </div>  
+
+        
 
     </div><!-- end #module-container -->
 
@@ -633,13 +713,13 @@
 
 <div id="loading-animation">
 
-	<img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
+    <img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
 
 </div>
 
 <!-- END LOADING CONTAINER AND ANIMATION--> 
 
-
+    
 
 </body>
 

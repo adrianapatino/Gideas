@@ -1087,6 +1087,7 @@ footer
     width: 150px;
 
     height: 28px;
+    margin-left: 72px;
 
 }
 
@@ -1238,7 +1239,7 @@ footer
 
     padding: 9px 0;
 
-	color:#777777; 
+	color:#ffffff; 
 
 	text-align:center;
 
@@ -5937,6 +5938,36 @@ h1, h2, h3, h4, h5, h6
 
 }
 
+/**********martin***/
+
+.third-thumb-holder2
+
+{
+
+    position:relative;
+
+    float:left;
+
+    width: 350px;
+
+    height: 260px;
+
+    background-color:#000;
+
+ 
+    cursor:hand;
+
+    cursor:pointer;
+
+    z-index: 3;
+
+    overflow:hidden;
+
+}
+
+
+/*******fin martin */
+
 .third-thumb-holder:nth-child(3n +3)
 
 {
@@ -5980,6 +6011,32 @@ h1, h2, h3, h4, h5, h6
 	background-position:center;
 
 	z-index:1;
+
+}
+.third-thumb-image2
+
+{
+
+    position:relative;
+
+    float:left; 
+
+   
+    margin-left: 1px;
+
+    margin-top: 1px;
+
+    overflow:hidden;    
+
+    background-color:#FFFFFF;
+
+    background-image:url(../assets/loaders/loader_circle.gif);
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    z-index:1;
 
 }
 
@@ -7758,36 +7815,41 @@ h1, h2, h3, h4, h5, h6
 
 .v1{
 
-            position: absolute;
-            left: 450px;
-            margin-top: 180px;
-            width: 200px;
+           float: left;
+            margin-top: -420px;
+            margin-left: -50px;
+            width: 150px;
             display: none;
         }
         .v2{
-            position: absolute;
-            margin-left: 570px;
-            top: 766px;
-            width: 280px;
+            float: left;
+            width: 150px;
+            margin-top: 55px;
+            margin-left: -65px;
           display: none;
+     
         }
         .v3{
 
-            position: absolute;
-            margin-top: 380px;
+           float: left;
+        width: 150px;
             display: none;
+            margin-left: -450px;
+            margin-top: -235px;
+             
         }
           .v4{
 
-            position: absolute;
-            margin-top: 380px;
-            margin-left: 750px;
+           float: right;
+            width: 150px;
             display: none;
+            margin-right: -130px;
+            margin-top: -270px;
+         
         }
 
     .tooltip{
   
-    position: relative;
     font-size: 12px;
 	font-family: PT Sans Caption;
 	   background: #F2230E;
@@ -7811,7 +7873,7 @@ h1, h2, h3, h4, h5, h6
 }
   .tooltip2{
   
-    position: relative;
+ 
     font-size: 12px;
 	font-family: PT Sans Caption;
 	   background: #F2230E;
@@ -7836,7 +7898,6 @@ h1, h2, h3, h4, h5, h6
 
 .tooltip3{
   
-    position: relative;
     font-size: 12px;
 	font-family: PT Sans Caption;
 	   background: #F2230E;
@@ -7859,8 +7920,7 @@ h1, h2, h3, h4, h5, h6
     z-index: 99;
 }
 .tooltip4{
-  
-    position: relative;
+ 
     font-size: 12px;
 	font-family: PT Sans Caption;
 	   background: #F2230E;
@@ -7888,33 +7948,39 @@ h1, h2, h3, h4, h5, h6
 .active:hover{color:#FFFFFF !important;}
 
 .flc1{
-	position: absolute;
-	top: 280px;
-	left: 390px;
+	/*position: absolute;*/
+	float: left;
+	margin-top: 125px;
 	cursor: pointer;
+    margin-left: 220px;
 }
 .flc2{
-	position: absolute;
-	top: 500px;
-	left: 590px;
+	/*position: absolute;*/
+	float: left;
+	margin-left: 400px;
 	cursor: pointer;
+    margin-top: 95px;
 }
 .flc3{
-	position: absolute;
-	top: 500px;
-	left: 150px;
+	/*position: absolute;*/
+	float: left;
+	margin-left: -50px;
+    margin-top: -80px;
 	cursor: pointer;
+    
 }
 .flc4{
-	position: absolute;
-	top: 700px;
-	left: 390px;
+	/*position: absolute;*/
+    float: left;
+	margin-top: 80px;
+	margin-left: 80px;
 	cursor: pointer;
 }
 .ctr{
-	position: absolute;
-	top: 480px;
-	left: 350px;
+	/*position: absolute;*/
+    margin-top:-115px;    
+    margin-left: -165px; 
+	float: left;
 	cursor: pointer;
 }
 .triangle1{

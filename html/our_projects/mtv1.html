@@ -6,7 +6,7 @@
 
 <head>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
 
@@ -20,13 +20,13 @@
 
     
 
-	<title>G ideas - The Red Mark (DEMO SITE by altusmedia)</title>
+    <title>G ideas - The Red Mark (DEMO SITE by altusmedia)</title>
 
     
 
-	<meta name="description" content="" />
+    <meta name="description" content="" />
 
-	<meta name="author" content="altusmedia" />
+    <meta name="author" content="altusmedia" />
 
         
 
@@ -54,7 +54,7 @@
 
         <!-- START TEMPLATE JavaScript load -->
 
-    	<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
+        <script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
 
         <script type="text/javascript" src="js/libs/modernizr.custom.min.js"></script> 
 
@@ -136,7 +136,7 @@
 
             <div id="template-logo" class="template-logo" data-href="#portfolio.html"></div> 
 
-            <div id="template-menu" class="template-menu" data-current-module-type="slideshow" data-side="none" data-href="#home_layout_1.html"><!-- start #template-menu -->
+            <div id="template-menu" class="template-menu" data-current-module-type="portfolio_columns" data-side="custom" data-href="#3_columns_portfolio.html"><!-- start #template-menu -->
 
                 <div class="menu-option-holder">
 
@@ -370,7 +370,7 @@
 
                     <div  class="menu-option-text"><a href="#contact.html" data-path-href="html/contact/">CONTACT US</a></div>
 
-                </div>            
+                </div>           
 
             </div><!-- end #template-menu -->  
 
@@ -483,140 +483,384 @@
     
 
     <div id="module-container"><!-- start #module-container -->
-        <div id="filter-buttons-holder" class="whatwedomenu">
-            <div class="filter-button selected"><a href="#ambiente.html">Bonafont Ambient</a></div>
-            <div class="filter-button selected"><a href="#guerrillaB.html">Bonafont Gerrilla Sampling</a></div>
-            <div class="filter-button selected"><a href="#levite.html">Bonafont Levite</a></div>
-            <div class="filter-button selected"><a href="#promocionB.html">Bonafont Promoción</a></div>
-            <div class="filter-button selected"><a href="#convencion.html">Bonafont Convención</a></div>
-        </div>
 
-    	<div id="slideshow" data-auto-play="true" data-time="4">
+        <div id="module-background-holder">   
 
-        	<div class="slideshow-slide">
+            <!--<div id="module-background-solid1" class="opacity_0"></div> -->    
 
-            <img src="assets/media/our_projects/projects/bonafont/ambient/Ambient--GIDEAS--para-BONAFONT-_IV--A--8--i.jpg" onload="onFirstMediaLoaded()"  id="slide-current"/>
-
-            </div>
-
-            <div class="slideshow-slide">
-
-            <div id="slide-src" data-src="assets/media/our_projects/projects/bonafont/ambient/Ambient--GIDEAS--para-BONAFONT-_IV--A--8--ii.jpg"></div>
-
-            </div>
-
-            <div class="slideshow-slide">
-
-            <div id="slide-src" data-src="assets/media/our_projects/projects/bonafont/ambient/Ambient--GIDEAS--para-BONAFONT-_IV--A--8--iii.jpg"></div>
-
-            </div>
-
-            <div class="slideshow-slide">
-
-                <div id="slide-src" data-src="assets/media/our_projects/projects/bonafont/ambient/Ambient--GIDEAS--para-BONAFONT-_IV--A--8--iv.jpg"></div>
-
-
-            </div>
+            <img src="assets/backg/fondo-store.jpg" onload="animateModuleBackground(this)" class="module-background" id="module-background" alt="" />
 
         </div>
 
-    	<div id="slideshow-thumbs">
+        <div id="module-container-holder" class="module-position-cc"  data-id="module-position-cc">
 
-            <div id="slideshow-thumbs-background" class="opacity_6"></div>
+            <div id="module-columns"  class="module-columns " > <!-- .shadow-side-all-->
 
-            <div id="slideshow-thumbs-holder">
+                <div id="module-columns-wrapper">
 
-                 <div class="slideshow-thumbs-arrow-backward">
+                    <div id="module-columns-container">
 
-                    <div class="slideshow-thumbs-arrow-backg opacity_2"></div>
+                        <div class="columns-filter-holder">
 
-                    <div class="slideshow-thumbs-arrow-backward-sign"></div>
+                            <div id="filter-buttons-holder">
 
-                </div>                 
+                                 <!--  <div class="filter-button" data-filter="entretaiment">ENTRETAIMENT</div>
 
-                 <div id="slideshow-thumbs-content">
+                             
 
-                        <div class="horizontal-fix-slideshow-thumbs">
+                                <div class="filter-button" data-filter="interaction">INTERACTION </div>-->
 
-                            <div id="slideshow-thumbs-container">
 
-                                <div class="slideshow-thumb-holder">
 
-                                    <img src="assets/media/our_projects/projects/bonafont/ambient/Ambient--GIDEAS--para-BONAFONT-_IV--A--8--i.jpg" width="105" height="70"/>
+
+                               
+
+                                <div class="filter-button selected" data-filter="*">Ver Todos</div>
+
+                            </div>
+
+                        </div>  
+
+                        <div class="columns-horizontal-separator"></div>         
+
+                        <div id="module-columns-holder"> 
+
+                            
+
+                           
+
+                            <div class="third-thumb-holder " data-id="interaction">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--i.jpg" width="110%" class="opacity_0" onload="animateThumb(this)" alt=""  />
 
                                     <div id="thumb-image-hover" class="hover-default">
 
                                         <div class="background opacity_6"></div>
 
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>  
-
-                                                                      
-
-                                </div>
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/our_projects/projects/bonafont/ambient/Ambient--GIDEAS--para-BONAFONT-_IV--A--8--i.jpg" width="105" height="70"/>
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
+                                        <div class="zoom-gallery"></div>
 
                                     </div>
 
-                                </div>
+                                </div>   
 
-                                <div class="slideshow-thumb-holder">
+                                <div class="thumb-tag">
 
-                                    <img src="assets/media/our_projects/projects/bonafont/ambient/Ambient--GIDEAS--para-BONAFONT-_IV--A--8--i.jpg" width="105" height="70"/>
+                                    <h1>UP FRONT FY 13</h1>
 
-                                    <div id="thumb-image-hover" class="hover-default">
+                                    <h2>Conoce, experimenta, vive que lo más trendy de la música</h2>
 
-                                        <div class="background opacity_6"></div>
+                                </div>                                                    
 
-                                        <div class="zoom-gallery-small"></div>
+                            </div>
 
-                                    </div>
+                            <div class="third-thumb-holder " data-id="entretaiment">
 
-                                </div>
+                                <div class="third-thumb-image">
 
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/our_projects/projects/bonafont/ambient/Ambient--GIDEAS--para-BONAFONT-_IV--A--8--i.jpg" width="105" height="70"/>
+                                    <img src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--ii.jpg" width="110%" class="opacity_0" onload="animateThumb(this)" alt=""  />
 
                                     <div id="thumb-image-hover" class="hover-default">
 
                                         <div class="background opacity_6"></div>
 
-                                        <div class="zoom-gallery-small"></div>
+                                        <div class="zoom-gallery"></div>
 
                                     </div>
 
+                                </div>   
+
+                                <div class="thumb-tag">
+
+                                      <h1>UP FRONT FY 13</h1>
+
+                                    <h2>Conoce, experimenta, vive que lo más trendy de la música</h2>
+
+                                </div>                                                    
+
+                            </div>
+
+                             <div class="third-thumb-holder " data-id="entretaiment">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--iii.jpg" width="110%" class="opacity_0" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+  <h1>UP FRONT FY 13</h1>
+
+                                    <h2>Conoce, experimenta, vive que lo más trendy de la música</h2>
+
+                                </div>                                                    
+
+                            </div>
+
+                            <div class="third-thumb-holder " data-id="entretaiment">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--iv.jpg" width="110%" class="opacity_0" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+                                     <h1>UP FRONT FY 13</h1>
+
+                                    <h2>Conoce, experimenta, vive que lo más trendy de la música</h2>
+
+                                </div>                                                    
+
+                            </div>
+
+                            <div class="third-thumb-holder " data-id="entretaiment">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--v.jpg" width="110%" class="opacity_0" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+
+                                      <h1>UP FRONT FY 13</h1>
+
+                                    <h2>Conoce, experimenta, vive que lo más trendy de la música</h2>
+                                </div>                                                    
+
+                            </div>
+
+
+                          
+
+                           
+
+                            
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                    
+
+                <div id="module-columns-preview-wrapper">
+
+                    <div id="module-columns-preview"><!-- start #module-columns-preview -->
+
+                        <div id="module-columns-preview-holder">
+
+                            <div id="columns-preview-controls">
+
+                                  <div class="columns-preview-counter">
+
+                                    <span>x/x</span>
+
+                                  </div>
+
+                                  <div class="columns-preview-backward">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-backward-sign"></div>
+
+                                  </div>
+
+                                  <div class="columns-preview-close">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-close-sign"></div>
+
+                                  </div>
+
+                                  <div class="columns-preview-forward">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-forward-sign"></div>
+
+                                  </div>  
+
+                            </div>
+
+                            <div class="columns-horizontal-separator"></div>
+
+                            <div class="columns-preview-horizontal-fix">
+
+                                <div id="columns-slides-controls">
+
+                                    <div class="col-prev-media-arrow-backward">
+
+                                        <div class="col-prev-media-arrow-backg opacity_2"></div>
+
+                                        <div class="col-prev-media-arrow-backward-sign"></div>
+
+                                    </div>
+
+                                    <div class="col-prev-media-arrow-forward">
+
+                                        <div class="col-prev-media-arrow-backg opacity_2"></div>
+
+                                        <div class="col-prev-media-arrow-forward-sign"></div>
+
+                                    </div>                
+
                                 </div>
+
+                                <ul>
+
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--i.jpg"></div>
+
+                                        <div class="columns-preview-description">
+
+                                             <p style="color: #FFF; font-size:28px;">MTV</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                            UP FRONT FY 13  <br><br><br></span><span style="color: #FFF; font-size:18px;">Conoce, experimenta, vive que lo más trendy de la música y lo más cool del entretenimiento están sólo en  MTV. <br><br> 
+
+                                            </span>
+
+                                           
+
+                                        </div>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--ii.jpg"></div>
+
+                                        <div class="columns-preview-description">
+
+                                            <p style="color: #FFF; font-size:28px;">MTV</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                            UP FRONT FY 13  <br><br><br></span><span style="color: #FFF; font-size:18px;">Conoce, experimenta, vive que lo más trendy de la música y lo más cool del entretenimiento están sólo en  MTV. <br><br> 
+
+                                            </span>
+
+
+                                        </div>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--iii.jpg"></div>
+
+                                        <div class="columns-preview-description">
+
+                                             <p style="color: #FFF; font-size:28px;">MTV</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                            UP FRONT FY 13  <br><br><br></span><span style="color: #FFF; font-size:18px;">Conoce, experimenta, vive que lo más trendy de la música y lo más cool del entretenimiento están sólo en  MTV. <br><br> 
+
+                                            </span>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--iv.jpg">
+
+                                          
+
+                                        </div>
+
+                                        <div class="columns-preview-description">
+                                            <p style="color: #FFF; font-size:28px;">MTV</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                            UP FRONT FY 13  <br><br><br></span><span style="color: #FFF; font-size:18px;">Conoce, experimenta, vive que lo más trendy de la música y lo más cool del entretenimiento están sólo en  MTV. <br><br> 
+
+                                            </span>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/mtv/eventos/Eventos-GIDEAS-para-MTV-_IV--B--11--v.jpg"></div>
+
+                                        <div class="columns-preview-description">
+                                             <p style="color: #FFF; font-size:28px;">MTV</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                            UP FRONT FY 13  <br><br><br></span><span style="color: #FFF; font-size:18px;">Conoce, experimenta, vive que lo más trendy de la música y lo más cool del entretenimiento están sólo en  MTV. <br><br> 
+
+                                            </span>
+                                        </div>
+
+                                    </li>
+
+                                   
+
+
+                                   
+
+                                </ul>    
 
                             </div>
 
                         </div>
 
-                 </div>                 
+                    </div> <!-- end #module-columns-preview --> 
 
-                 <div class="slideshow-thumbs-arrow-forward">
+                </div>
 
-                    <div class="slideshow-thumbs-arrow-backg opacity_2"></div>
+                    
 
-                    <div class="slideshow-thumbs-arrow-forward-sign"></div>
-
-                 </div>
-
-                 <div id="slideshow-thumbs-counter"> <span></span> </div>                 
+                <!--<div id="galleries-background" class="opacity_8"></div>-->  
 
             </div>
 
+            
+
         </div>
+
+        <div id="module-scrollbar-holder_v2">
+
+            <div id="module-scrollbar-background" class="opacity_8"></div>
+
+            <div id="module-scrollbar-dragger"></div>
+
+        </div>  
+
+        
 
     </div><!-- end #module-container -->
 
@@ -630,13 +874,13 @@
 
 <div id="loading-animation">
 
-	<img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
+    <img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
 
 </div>
 
 <!-- END LOADING CONTAINER AND ANIMATION--> 
 
-
+    
 
 </body>
 

@@ -6,7 +6,7 @@
 
 <head>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
 
@@ -20,13 +20,13 @@
 
     
 
-	<title>G ideas - The Red Mark (DEMO SITE by altusmedia)</title>
+    <title>G ideas - The Red Mark (DEMO SITE by altusmedia)</title>
 
     
 
-	<meta name="description" content="" />
+    <meta name="description" content="" />
 
-	<meta name="author" content="altusmedia" />
+    <meta name="author" content="altusmedia" />
 
         
 
@@ -54,7 +54,7 @@
 
         <!-- START TEMPLATE JavaScript load -->
 
-    	<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
+        <script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
 
         <script type="text/javascript" src="js/libs/modernizr.custom.min.js"></script> 
 
@@ -136,7 +136,7 @@
 
             <div id="template-logo" class="template-logo" data-href="#portfolio.html"></div> 
 
-            <div id="template-menu" class="template-menu" data-current-module-type="slideshow" data-side="none" data-href="#home_layout_1.html"><!-- start #template-menu -->
+            <div id="template-menu" class="template-menu" data-current-module-type="portfolio_columns" data-side="custom" data-href="#3_columns_portfolio.html"><!-- start #template-menu -->
 
                 <div class="menu-option-holder">
 
@@ -370,7 +370,7 @@
 
                     <div  class="menu-option-text"><a href="#contact.html" data-path-href="html/contact/">CONTACT US</a></div>
 
-                </div>            
+                </div>           
 
             </div><!-- end #template-menu -->  
 
@@ -483,144 +483,382 @@
     
 
     <div id="module-container"><!-- start #module-container -->
-        <div id="filter-buttons-holder" class="whatwedomenu">
-             <div class="filter-button selected"><a href="#ambiente.html">Bonafont Ambient</a></div>
-            <div class="filter-button selected"><a href="#guerrillaB.html">Bonafont Gerrilla Sampling</a></div>
-            <div class="filter-button selected"><a href="#levite.html">Bonafont Levite</a></div>
-            <div class="filter-button selected"><a href="#promocionB.html">Bonafont Promoción</a></div>
-            <div class="filter-button selected"><a href="#convencionB.html">Bonafont Convención</a></div>
-        </div>
 
-    	<div id="slideshow" data-auto-play="true" data-time="4">
+        <div id="module-background-holder">   
 
-        	<div class="slideshow-slide">
+            <!--<div id="module-background-solid1" class="opacity_0"></div> -->    
 
-            	<img src="assets/media/our_projects/projects/bonafont/levite/Ambient--para-LEVITE-_IV--A--7--i.jpg" onload="onFirstMediaLoaded()"  id="slide-current" alt="" />
-
-            </div>
-
-            <div class="slideshow-slide">
-
-               <div id="slide-src" data-src="assets/media/our_projects/projects/bonafont/levite/Ambient--para-LEVITE-_IV--A--7--ii.jpg"></div>
-
-            </div>
-
-            <div class="slideshow-slide">
-
-            <div id="slide-src" data-src="assets/media/our_projects/projects/bonafont/levite/Ambient--para-LEVITE-_IV--A--7--iii.jpg"></div> 
-
-            </div>
-
-            <div class="slideshow-slide">
-
-             <div id="slide-src" data-src="assets/media/our_projects/projects/bonafont/levite/Ambient--para-LEVITE-_IV--A--7--iv.jpg"></div>
-
-
-            </div>
+            <img src="assets/backg/fondo-store.jpg" onload="animateModuleBackground(this)" class="module-background" id="module-background" alt="" />
 
         </div>
 
-    	<div id="slideshow-thumbs">
+        <div id="module-container-holder" class="module-position-cc"  data-id="module-position-cc">
 
-            <div id="slideshow-thumbs-background" class="opacity_6"></div>
+            <div id="module-columns"  class="module-columns " > <!-- .shadow-side-all-->
 
-            <div id="slideshow-thumbs-holder">
+                <div id="module-columns-wrapper">
 
-                 <div class="slideshow-thumbs-arrow-backward">
+                    <div id="module-columns-container">
 
-                    <div class="slideshow-thumbs-arrow-backg opacity_2"></div>
+                        <div class="columns-filter-holder">
 
-                    <div class="slideshow-thumbs-arrow-backward-sign"></div>
+                            <div id="filter-buttons-holder">
 
-                </div>                 
+                              <!-- <div class="filter-button" data-filter="entretaiment">ENTRETAIMENT</div>
 
-                 <div id="slideshow-thumbs-content">
 
-                        <div class="horizontal-fix-slideshow-thumbs">
+                                <div class="filter-button" data-filter="impact">IMPACT</div>-->
 
-                            <div id="slideshow-thumbs-container">
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/home/home_layout1/thumbs/thumb1.jpg" width="105" height="70" alt="" />
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>  
-
-                                                                      
-
-                                </div>
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/home/home_layout1/thumbs/thumb2.jpg" width="105" height="70" alt="" />
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/home/home_layout1/thumbs/thumb3.jpg" width="105" height="70" alt="" />
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="slideshow-thumb-holder">
-
-                                    <img src="assets/media/home/home_layout1/thumbs/thumb4.jpg" width="105" height="70" alt="" />
-
-                                    <div id="thumb-image-hover" class="hover-default">
-
-                                        <div class="background opacity_6"></div>
-
-                                        <div class="zoom-gallery-small"></div>
-
-                                    </div>
-
-                                </div>
-
-                                
 
                                
+
+                                <div class="filter-button selected" data-filter="*">Ver Todos</div>
+
+                            </div>
+
+                        </div>  
+
+                        <div class="columns-horizontal-separator"></div>         
+
+                        <div id="module-columns-holder"> 
+
+                            
+
+                           
+
+                            <div class="third-thumb-holder " data-id="impact">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones_GIDEAS-para-AMAFORE-_IV--A--10--i.jpg" class="opacity_0" width="110%" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+
+                                    <h1>ACTIVACIONES  EN UNIVERSIDADES AMAFORE</h1>
+
+                                    <h2>NO EXISTE UNA EDAD para pensar al futuro.</h2>
+
+                                </div>                                                    
+
+                            </div>
+                             <div class="third-thumb-holder " data-id="impact">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones-_GIDEAS-para-AMAFORE-_IV--A--10--ii.jpg" class="opacity_0" width="110%" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+
+                                    <h1>ACTIVACIONES  EN UNIVERSIDADES AMAFORE</h1>
+
+                                    <h2>NO EXISTE UNA EDAD para pensar al futuro.</h2>
+
+                                </div>                                                    
+
+                            </div>
+                             <div class="third-thumb-holder " data-id="impact">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones-_GIDEAS-para-AMAFORE-_IV--A--10--iii.jpg" class="opacity_0" width="110%" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+
+                                    <h1>ACTIVACIONES  EN UNIVERSIDADES AMAFORE</h1>
+
+                                    <h2>NO EXISTE UNA EDAD para pensar al futuro.</h2>
+
+                                </div>                                                    
+
+                            </div>
+                             <div class="third-thumb-holder " data-id="impact">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones-_GIDEAS-para-AMAFORE-_IV--A--10--iv.jpg" class="opacity_0" width="110%" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+
+                                    <h1>ACTIVACIONES  EN UNIVERSIDADES AMAFORE</h1>
+
+                                    <h2>NO EXISTE UNA EDAD para pensar al futuro.</h2>
+
+                                </div>                                                    
+
+                            </div>
+                             <div class="third-thumb-holder " data-id="impact">
+
+                                <div class="third-thumb-image">
+
+                                    <img src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones-_GIDEAS-para-AMAFORE-_IV--A--10--v.jpg" class="opacity_0" width="110%" onload="animateThumb(this)" alt=""  />
+
+                                    <div id="thumb-image-hover" class="hover-default">
+
+                                        <div class="background opacity_6"></div>
+
+                                        <div class="zoom-gallery"></div>
+
+                                    </div>
+
+                                </div>   
+
+                                <div class="thumb-tag">
+
+                                    <h1>ACTIVACIONES  EN UNIVERSIDADES AMAFORE</h1>
+
+                                    <h2>NO EXISTE UNA EDAD para pensar al futuro.</h2>
+
+                                </div>                                                    
+
+                            </div>
+
+                          
+
+                         
+
+                           
+
+                            
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                    
+
+                <div id="module-columns-preview-wrapper">
+
+                    <div id="module-columns-preview"><!-- start #module-columns-preview -->
+
+                        <div id="module-columns-preview-holder">
+
+                            <div id="columns-preview-controls">
+
+                                  <div class="columns-preview-counter">
+
+                                    <span>x/x</span>
+
+                                  </div>
+
+                                  <div class="columns-preview-backward">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-backward-sign"></div>
+
+                                  </div>
+
+                                  <div class="columns-preview-close">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-close-sign"></div>
+
+                                  </div>
+
+                                  <div class="columns-preview-forward">
+
+                                    <div class="columns-preview-backg"></div>
+
+                                    <div class="columns-preview-forward-sign"></div>
+
+                                  </div>  
+
+                            </div>
+
+                            <div class="columns-horizontal-separator"></div>
+
+                            <div class="columns-preview-horizontal-fix">
+
+                                <div id="columns-slides-controls">
+
+                                    <div class="col-prev-media-arrow-backward">
+
+                                        <div class="col-prev-media-arrow-backg opacity_2"></div>
+
+                                        <div class="col-prev-media-arrow-backward-sign"></div>
+
+                                    </div>
+
+                                    <div class="col-prev-media-arrow-forward">
+
+                                        <div class="col-prev-media-arrow-backg opacity_2"></div>
+
+                                        <div class="col-prev-media-arrow-forward-sign"></div>
+
+                                    </div>                
+
+                                </div>
+
+                                <ul>
+
+
+                                   <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones_GIDEAS-para-AMAFORE-_IV--A--10--i.jpg"></div>
+
+                                        <div class="columns-preview-description">
+
+                                             <p style="color: #FFF; font-size:28px;">AMAFORE</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                           ACTIVACIONES  EN UNIVERSIDADES AMAFORE                                          Prepara tu Futuro  feat. El WESO.     <br><br><br></span><span style="color: #FFF; font-size:18px;">NO EXISTE UNA EDAD                                      para pensar al futuro.<br><br> 
+
+                                            </span>
+                                           
+
+                                        </div>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones-_GIDEAS-para-AMAFORE-_IV--A--10--ii.jpg"></div>
+
+                                        <div class="columns-preview-description">
+
+                                             <p style="color: #FFF; font-size:28px;">AMAFORE</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                           ACTIVACIONES  EN UNIVERSIDADES AMAFORE                                          Prepara tu Futuro  feat. El WESO.     <br><br><br></span><span style="color: #FFF; font-size:18px;">NO EXISTE UNA EDAD                                      para pensar al futuro.<br><br> 
+
+                                            </span>
+
+
+                                        </div>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones-_GIDEAS-para-AMAFORE-_IV--A--10--iii.jpg"></div>
+
+                                        <div class="columns-preview-description">
+
+                                              <p style="color: #FFF; font-size:28px;">AMAFORE</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                           ACTIVACIONES  EN UNIVERSIDADES AMAFORE                                          Prepara tu Futuro  feat. El WESO.     <br><br><br></span><span style="color: #FFF; font-size:18px;">NO EXISTE UNA EDAD                                      para pensar al futuro.<br><br> 
+
+                                            </span>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones-_GIDEAS-para-AMAFORE-_IV--A--10--iv.jpg">
+
+                                          
+
+                                        </div>
+
+                                        <div class="columns-preview-description">
+
+                                             <p style="color: #FFF; font-size:28px;">AMAFORE</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                           ACTIVACIONES  EN UNIVERSIDADES AMAFORE                                          Prepara tu Futuro  feat. El WESO.     <br><br><br></span><span style="color: #FFF; font-size:18px;">NO EXISTE UNA EDAD                                      para pensar al futuro.<br><br> 
+
+                                            </span>
+
+                                        </div>
+
+                                    </li>
+
+                                    <li>
+
+                                        <div class="columns-preview-media" data-src="assets/media/our_projects/projects/Amafore/activaciones/Activaciones-_GIDEAS-para-AMAFORE-_IV--A--10--v.jpg"></div>
+
+                                        <div class="columns-preview-description">
+
+                                              <p style="color: #FFF; font-size:28px;">AMAFORE</p>
+
+                                            <span style="color: #FFF; font-size:28px;">
+                                           ACTIVACIONES  EN UNIVERSIDADES AMAFORE                                          Prepara tu Futuro  feat. El WESO.     <br><br><br></span><span style="color: #FFF; font-size:18px;">NO EXISTE UNA EDAD                                      para pensar al futuro.<br><br> 
+
+                                            </span>
+                                        </div>
+
+                                    </li>
+
+                               
+
+
+                                   
+
+                                </ul>    
 
                             </div>
 
                         </div>
 
-                 </div>                 
+                    </div> <!-- end #module-columns-preview --> 
 
-                 <div class="slideshow-thumbs-arrow-forward">
+                </div>
 
-                    <div class="slideshow-thumbs-arrow-backg opacity_2"></div>
+                    
 
-                    <div class="slideshow-thumbs-arrow-forward-sign"></div>
-
-                 </div>
-
-                 <div id="slideshow-thumbs-counter"> <span></span> </div>                 
+                <!--<div id="galleries-background" class="opacity_8"></div>-->  
 
             </div>
 
+            
+
         </div>
+
+        <div id="module-scrollbar-holder_v2">
+
+            <div id="module-scrollbar-background" class="opacity_8"></div>
+
+            <div id="module-scrollbar-dragger"></div>
+
+        </div>  
+
+        
 
     </div><!-- end #module-container -->
 
@@ -634,13 +872,13 @@
 
 <div id="loading-animation">
 
-	<img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
+    <img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
 
 </div>
 
 <!-- END LOADING CONTAINER AND ANIMATION--> 
 
-
+    
 
 </body>
 
