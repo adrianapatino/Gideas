@@ -3876,20 +3876,11 @@ footer
 
 }
 
-.module-contact-background
-
-{
-
+.module-contact-background{
   	position:relative;
-
 	float:left;
-
 	width:100%;
-
 	height:100%;
-
-  	background-color:#FFFFFF;	
-  	background-image: url('../assets/backg/contacto.jpg');
   	background-repeat: no-repeat;
 
 }
@@ -3914,96 +3905,50 @@ footer
 }
 
 
-#module-contact-holder
-
-{
-
+#module-contact-holder{
 	position:absolute;
-
 	width: 635px;	
-
 	right:0;
-
-	margin-top: 474px;	
-
+	margin-top: 31.3%;
 }
 
 
-#module-jobs-holder
-
-{
-
+#module-jobs-holder{
 	position:absolute;
-
 	width: 635px;	
-
 	right:0;
-
 	margin-top: 474px;	
-
 }
 
-
-.contact-information
-
-{
-
+.contact-information{
 	position:relative;
-
 	float:left;
-
-	width: 40%; 
-
+	width: 36%; 
 	height: 250px;
-
 	margin-top: 10px;
-
 	margin-left: 25px;
-
 }
 
-.contact-information-title
-
-{
-
+.contact-information-title{
 	position:relative;
-
 	float: left;
-
 	width: 100%;
-
 	margin-top: 16px;	
-
 }
 
-.contact-information-title p
-
-{
-
+.contact-information-title p{
 	font-family:PT Sans;
-
 	font-weight: bold;
-
 	font-size:20px;
-
 	color:#FFF; 
-
-	text-align:left;	
-
+	text-align:left;
 }
 
-.contact-information-details
-
-{
-
+.contact-information-details{
 	position:relative;
-
 	float: left;
-
 	width: 100%;
-
 	margin-top: 20px;
-
 }
 
 .contact-information-details img
@@ -4086,35 +4031,19 @@ footer
 
 }
 
-.contact-form-holder
-
-{
-
+.contact-form-holder{
 	position:relative;
-
 	float:left;
-
-	width: 56%; 
-
-	height: 250px;
-
+	width: 50%; 
+	/*height: 250px;*/
 	margin-top: 10px;
-
-
 }
 
-.contact-form-holder form
-
-{
-
+.contact-form-holder form{
 	position: relative;
-
 	float: left;
-
 	width: 100%; 
-
 	margin-top: 8px;	
-
 }
 
 .form-input-half-left
@@ -4167,7 +4096,7 @@ footer
 
 	font-size:14px;
 
-	color:#0c0c0c; 
+	color:#FFFFFF; 
 
 	text-align:left;
 
@@ -4249,7 +4178,7 @@ footer
 
 	font-size:14px;
 
-	color:#0c0c0c; 
+	color:#FFFFFF; 
 
 	text-align:left;
 
@@ -4309,7 +4238,7 @@ footer
 
 	font-size:14px;
 
-	color:#0c0c0c; 
+	color:#808080; 
 
 	text-align:left;
 
@@ -7595,153 +7524,102 @@ h1, h2, h3, h4, h5, h6
 /*						TOUCH DEVICES								*/
 
 /*------------------------------------------------------------------*/
+@media only screen and (min-width: 1100px) and (max-width: 1290px){
+	#module-contact-holder .title-holder{ width: 50%; margin-left:7%;}
+	#module-contact-holder{margin-top: 27.3%;}
+	#module-contact-holder .custom-separator-careers{width:96%; margin-left:2%;}
+}
+@media only screen and (min-width: 100px) and (max-width: 1210px){
+	#module-contact-holder{
+		background-color: #000;
+		padding: 4px;
+	}
+	#contact-form .form-buttons{width: 100%;}
+}
+@media only screen and (min-width: 100px) and (max-width: 480px){
+	
+	.contact-information-responsive{display:block !important;}
+	.contact-information{display: none;}
+	#module-contact-holder{
+		width: 100% !important;
+		min-height: 100% !important;
+		margin-top: 0;
+		left: 0 !important;
+	}
+	.contact-form-holder{width: 90%}
 
-@media only screen and (min-width: 1025px) and (max-width: 1200px)
-
-{
-
+}
+@media only screen and (min-width: 100px) and (max-width: 1410px){
+	.jobs-back{display: none;}
+	.jobs-wrapper #module-contact{
+		background: url("../assets/backg/bgjobstouch.png") center top;
+		background-size: 100%;
+		width: 100%;
+		height: 100%;
+		margin: 0 !important;
+		top: 0 !important;
+		left: 0 !important;
+	}
+	.jobsHoldercontainer{margin-top: 22.3%;}
+}
+@media only screen and (min-width: 200px) and (max-width: 1030px){}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
 	#standard-banner{ height: 363px; }
-
 	.home-layout2-content ul{ margin: 0px 21px; }
-
 	.banner-desc-tr{ top: 50px; right: 50px; }
-
 	.banner-desc-cr{ top: 100px; right: 50px; }
-
 	.banner-desc-br{ bottom: 50px; right: 50px; }
-
 	.banner-desc-tl{ top: 50px; left: 50px; }
-
 	.banner-desc-cl{ top: 100px; left: 50px; }
-
 	.banner-desc-bl{ bottom: 50px; left: 50px; }
-
-	
-
 	.module-home-layout3{ width: 824px; } #home-video-block{ width: 572px; height: 337px; }	
-
 	#home-advertise, #home-advertise1, #home-advertise2{ height: 158px; width: 170px; } .advertise-image, #home-advertise img{ height: 120px; width: 170px; }
-
-
-
 	.module-galleries{ width: 722px; }
-
-	
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px)
 
 {
-
 	.template-logo{ margin-left: -80px; }
-
 	.template-menu{ margin: 0px; }
-
     #audio-player{left: 0px;}
-
 	footer{ width: 210px; }
-
-	
-
 	#thumb-image-hover{ display: none; }
-
-	
-
-	
-
 	#standard-banner{ height: 251px; }
-
 	.home-layout2-content ul{ margin: 0px 30px; } .home-layout2-content ul li{ margin: 20px 30px 20px 0px; width: 215px; }
-
 	.banner-desc{ width: 100%; clear: both; float: left; position: absolute;} .banner-desc span{ padding: 10px; font-size:13px; } .banner-desc span h1{ margin-bottom: 5px; font-size:18px;}
-
 	.banner-desc-tr, .banner-desc-cr,.banner-desc-br, .banner-desc-tl, .banner-desc-cl, .banner-desc-bl {bottom:3px; left:0px; top:auto; }	
-
-	
-
 	.home-layout-clients a{margin: 10px 0 10px 3px; }
-
-	
-
 	.module-home-layout3{ width: 556px; } #home-video-block{ width: 510px; height: 296px; margin-right: 0px; }	
-
 	#module-home-layout3-holder{margin:25px 20px; width: 510px;}
-
 	#home-advertise{ margin-top: 20px;  height: 210px; width: 510px; } #home-advertise1{ margin-bottom: 0px;} #home-advertise2{ margin-left: 20px; }
-
 	#home-advertise1, #home-advertise2{ height: 210px; width: 245px; } .advertise-image, #home-advertise img{ height: 173px; width: 245px; }
-
-	
-
-	
-
-	
-
 	.module-about-us, .module-ethics, .module-careers{ width: 460px; } .module-philosophy{ width: 510px; }
-
-	
-
 	.module-pricing{ width: 510px; } #pricing-column-header h2{ font-size: 15px; } #pricing-column-header h1{ font-size: 12px; }
-
 	#module-pricing-container{ margin: 5px 0px; }
-
-	
-
 	.module-news-vertical, #module-news-preview-holder{ width: 490px; } .news-preview-horizontal-fix, #module-news-preview-container ul li { width:400px; } 
-
-	
-
 	#module-contact-holder { width: 510px; }
-
-
-
 	.module-galleries{ width: 486px; }
-
-	
-
 	.full-width-info-container{ width: 240px; }
-
-
-
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px)
 
 {
-
 	#menu-container{ position:absolute; width: 100%; height:auto; left:0px; z-index:10; }
-
 	#template-menu{ display: none; }
-
     #audio-player{display:none;}
-
 	.menu-content-holder{ width: 100%; }
-
 	.template-logo{ margin: 5px 0 5px -47px; background-image: url("../assets/media/synergy_html5_logo_smartphone.png"); width:94px; height:60px;}
-
 	#template-smpartphone-menu{ display: inline; }
-
-	
-
 	#menu-hider{ width: 100%; height: 10px; }
-
 	#menu-hider-background{ width: 100%; height: 10px; }
-
 	#menu-hider-icon{ background-position: -299px -200px; height: 28px; width: 38px; left:50%; top: 3px; margin-left: -15px; }
-
-	
-
 	footer{ display:none; }	
-
-	
-
 	#thumb-image-hover{ display: none; }
-
-	
-
+	.contact-information-details img{display: none;}
 	.home-layout2-content ul{ margin: 0px 25px; } .home-layout2-content ul li{ margin: 20px 20px 20px 0px; width: 195px; }
-
+	#module-contact #module-contact-holder{margin-top: 20%; padding:5px; margin-bottom: 4%; background-color: #000;}
 	#standard-banner{ height: 222px; }
 
 	.banner-desc{ width: 460px; clear: both; float: left; position: absolute;} .banner-desc span{ padding: 10px; font-size:13px; } .banner-desc span h1{ margin-bottom: 5px; font-size:18px;}
@@ -8136,4 +8014,61 @@ h1, h2, h3, h4, h5, h6
 }
 .weare_videocontainer{
 	margin: auto;
+}
+/*******JOB FORM STYLES *************/
+#jobcontact-form .form-input-label{
+	min-width: 100px;
+	float: left;
+	color: #FFFFFF !important;
+}
+#jobcontact-form .form-input-label label{margin-top: 8px; display: block;}
+.jobscontainer{width: 80%!important;}
+.jobscontainer .form-input-half-left{width: 78%;}
+.jobscontainer input{color:#808080;}
+.jobsHoldercontainer{margin-top: 24.3% !important;}
+.upload_label{float: left;
+	width: 100%;
+	margin:10px 0;
+	color:#FFFFFF !important;
+}
+#jobcontact-form .form-buttons{width: 100% !important;}
+#jobcontact-form .custom-input-file {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-family: calibri;
+    font-size: 20px;
+    width: 200px;
+    min-height: 40px;
+}
+#jobcontact-form .custom-input-file:hover {
+    background-color: #000;
+    color: #fff;
+}
+#jobcontact-form .custom-input-file .input-file {
+    margin: 0;
+    padding: 0;outline:0;
+    font-size: 10000px;
+    border: 10000px solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    cursor: pointer;
+}
+#jobcontact-form .custom-input-file .archivo {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    overflow: hidden;
+}
+#jobcontact-form .custom-input-file:hover .archivo {
+    background-color: #fff;
+    color: #000;   
 }

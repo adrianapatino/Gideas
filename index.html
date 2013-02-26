@@ -117,7 +117,24 @@
             _V_.options.flash.params = params;
 
     
+            $(document).ready(function(){
+                $("#form-reset",".jobsHoldercontainer").live('click',function(){
+                    $("#cv").click();
+                });
+                $("#form-send","#jobcontact-form").live("click",function(){
+                    var form = document.getElementById('jobcontact-form');
+                    var formData = new FormData(form);
+                    var xhr = new XMLHttpRequest();
+                    xhr.open('POST', 'http://lalo.local/Gideas/php/jobs.php', true);
+                    xhr.onload = function(event){
+                        var json = xhr.responseText;
+                        $('#jobmessage').html("<span style='color:red'>"+json+"</span>");
+                    };
+                     xhr.setRequestHeader('Accept','message/x-jl-formresult');
+                     xhr.send(formData);
 
+                });
+            });
         </script>    
 
 </head>
@@ -761,9 +778,6 @@
     
 
 </div>
-
-
-
 <div id="load-container">
 
 </div>

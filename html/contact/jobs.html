@@ -6,7 +6,7 @@
 
 <head>
 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
 
@@ -20,13 +20,13 @@
 
     
 
-	<title>G ideas - The Red Mark (DEMO SITE by altusmedia)</title>
+    <title>G ideas - The Red Mark (DEMO SITE by altusmedia)</title>
 
     
 
-	<meta name="description" content="" />
+    <meta name="description" content="" />
 
-	<meta name="author" content="altusmedia" />
+    <meta name="author" content="altusmedia" />
 
         
 
@@ -54,7 +54,7 @@
 
         <!-- START TEMPLATE JavaScript load -->
 
-    	<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
+        <script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>    
 
         <script type="text/javascript" src="js/libs/modernizr.custom.min.js"></script> 
 
@@ -460,7 +460,7 @@
 
                 <div id="footer-text"><!-- start #footer-text -->
 
-                    <div id="footer-copyright"><a href="#">&copy;2012 YOUR-COMPANY.COM</a></div>           
+                    <div id="footer-copyright"><a href="#">&copy;2013 G-IDEAS</a></div>           
 
                 </div><!-- end #footer -->    
 
@@ -484,168 +484,90 @@
 
     <div id="module-container"><!-- start #module-container -->
 
-        <div id="module-background-holder">
+        <div id="module-background-holder" class="jobs-back">
 
-            <div id="module-background-solid2" class="opacity_0"><div><img src="assets/media/jobs/Jobs.png"></div></div>        	
+            <img src="assets/media/jobs/bgjobs.png" onload="animateModuleBackground(this)" class="module-background" id="module-background" alt="" />
 
-        </div>
+        </div>  
 
         <div id="module-container-holder" class="module-position-lc"  data-id="module-position-lc">
 
-            <div id="module-wrapper">
+            <div id="module-wrapper" class="jobs-wrapper">
 
                 <div id="module-contact-container">
-
-
-                    <!--<div id="media-holder-contact" data-src="assets/media/contact/contact_image.jpg"></div>-->
-
-                    <!--<div id="map-holder" data-address="Insurgentes Sur 605, Nápoles, Benito Juárez, 03810 Ciudad de México, Distrito Federal" data-latitude="19.397711" data-longitude="-99.170962" data-icon="assets/media/contact/contact_map_pin.png" data-size="60, 44" data-anchor="30,44">-->
-                        
-                       
-
-                    </div>            
-
                     <div id="module-contact" class="module-position-no-shadow-lb">
-
-                    	<div class="module-jobs-background opacity_8"></div>
-
-                    	<div id="module-jobs-holder"> 
-
-                        	
-
-                            <div class="title-holder">
-
-                            	<span class="title-text_normal">CONTACTO</span>
-
-                            </div>
-
-                            <div class="custom-separator-careers"></div>
-
-                            <div class="contact-form-holder">
-
-                                <form id="contact-form">
-
+                        <div class="module-contact-background opacity_8"></div>
+                        <div id="module-contact-holder" class="jobsHoldercontainer">
+                            <div class="contact-form-holder jobscontainer">
+                                <p id="jobmessage"></p>
+                                <form id="jobcontact-form" action="php/jobs.php" method="post" enctype="multipart/form-data">
+                                    <div class="form-input-label">
+                                        <label for="name">First Name *</label>
+                                    </div>
                                     <div class="form-input-half-left form-input-border">
-
                                         <div class="form-input-background opacity_2"></div>
-
-                                        <input id="name" type="text" name="name" placeholder="Nombre *"/>
-
+                                        <input id="name" type="text" name="name" value=""/>
                                     </div>
-
-                                    <div class="form-input-half-right form-input-border">
-
-                                        <div class="form-input-background opacity_2"></div>
-
-                                        <input id="email" type="text" name="email" placeholder="Email *"/>
-
-                                    </div>   
-
-                                    <div class="form-input-large form-input-border">
-
-                                        <div class="form-input-background opacity_2"></div>
-
-                                        <input id="phone" type="text" name="phone" placeholder ="Teléfono *";/>
-
+                                   <div class="form-input-label">
+                                        <label for="family_name">Family Name *</label>
                                     </div>
-
+                                    <div class="form-input-half-left form-input-border">
+                                        <div class="form-input-background opacity_2"></div>
+                                        <input id="family_name" type="text" name="family_name" value=""/>
+                                    </div>
+                                    <div class="form-input-label">
+                                        <label for="email">E-mail *</label>
+                                    </div>
+                                    <div class="form-input-half-left form-input-border">
+                                        <div class="form-input-background opacity_2"></div>
+                                        <input id="email" type="text" name="email" value=""/>
+                                    </div>
+                                    <div class="form-input-label">
+                                        <label for="facebook">FB</label>
+                                    </div>
+                                    <div class="form-input-half-left form-input-border">
+                                        <div class="form-input-background opacity_2"></div>
+                                        <input id="facebook" type="text" name="facebook" value=""/>
+                                    </div>
+                                    <div class="form-input-label">
+                                        <label for="twitter">Twitter</label>
+                                    </div>
+                                    <div class="form-input-half-left form-input-border">
+                                        <div class="form-input-background opacity_2"></div>
+                                        <input id="twitter" type="text" name="twitter" value=""/>
+                                    </div>
+                                    <div class="form-input-label">
+                                        <label for="message">A few words to explain WHY YOU ARE ABLE TO SURPRISE? *</label>
+                                    </div>
                                     <div class="form-input-textarea form-input-border">
-
                                         <div class="form-input-background opacity_2"></div>
-
-                                        <textarea id="message" name="message" placeholder ="Mensaje *"></textarea>
-
+                                        <textarea id="message" name="message"></textarea>
                                     </div>
-
+                                    <div class="form-input-half form-input-border" style="display:none;">
+                                        <div class="form-input-background opacity_2"></div>
+                                        <input type="file" name="cv" id="cv" />
+                                    </div>
                                     <div id="response-form">
-
                                         <p>Message delivered! Thank You!</p>
-
                                         <span id="form-warning">FAVOR DE LLENAR TODOS LOS CAMPOS MARCADOS (*)</span>
-
                                         <span id="server-error"></span>
-
                                     </div>
-
+                                    <div class="upload_label">
+                                        <p>Are you ready for take-off?*</p>
+                                        <p>UPLOAD YOUR RESUME*</p>
+                                    </div>
                                     <div class="form-buttons">
-
                                         <div id="form-reset">
-
-                                            <p>BORRAR</p>
-
+                                            <p>Selecciona un Archivo</p>
                                         </div> 
-
                                         <div id="form-send" data-sending-txt="SENDING...">
-
-                                            <p>ENVIAR</p>
-
+                                            <p>Subir</p>
                                         </div>
 
                                     </div>
-
-                                    
-
                                 </form>
 
                             </div>
-
-                            
-                            <div class="contact-information">
-
-                            	<div class="contact-information-title">
-
-                                	<p>Contáctanos:</p>
-
-                                </div>
-
-                                <div class="contact-information-details">
-
-                                	<img src="assets/media/contact/icons/icon_address.png" alt="" class="opacity_0" onload="animateThumb(this)"/>
-
-                                    <p>                    	
-
-                                    	  Insurgentes Sur 605
-
-                                          <br/>
-
-                                          Nápoles, Benito Juárez
-
-                                          <br/>
-
-                                         México, D.F.
-
-                                    </p>
-
-                                </div>
-
-                                <div class="contact-information-details">
-
-                                	<img src="assets/media/contact/icons/icon_phone.png" alt="" class="opacity_0" onload="animateThumb(this)"/>
-
-                                    <p>                    	
-
-                                    	   + 55 5682 8093
-
-                                    </p>
-
-                                </div>
-
-                                <div class="contact-information-details">
-
-                                	<img src="assets/media/contact/icons/icon_mail.png" alt="" class="opacity_0" onload="animateThumb(this)"/>
-
-                                    <p>                    	
-
-                                    	   <a href="mailto:contacto@gideas.com.mx">contacto@gideas.com.mx</a> 
-
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                            
-
                         </div>   
 
                     </div>
@@ -676,7 +598,7 @@
 
 <div id="loading-animation">
 
-	<img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
+    <img src="assets/loaders/loader.gif" width="16" height="11" alt="Synergy - loading animation"/>
 
 </div>
 
