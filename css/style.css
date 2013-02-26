@@ -7919,7 +7919,7 @@ h1, h2, h3, h4, h5, h6
 }
 .triangle1{
 	background-color: #FFFFFF;
-    height: 39% !important;
+    height: 40% !important;
     margin-top: -7%;
     min-height: 100px;
     transform: skewY(-8deg);
@@ -7928,6 +7928,19 @@ h1, h2, h3, h4, h5, h6
 	-o-transform:  skewY(-8deg); /* Opera */
 	-moz-transform:  skewY(-8deg); /* Firefox */
     width: 100% !important;
+}
+@media only screen and (min-width: 50px) and (max-width: 700px){
+	 .triangle1{
+	 height: 25% !important;
+	}
+	.triangle2{
+
+    height: 28% !important;
+    min-height: 100px;
+    min-width: 608px;
+    transform: skewY(-7deg);
+    width: 100% !important;
+	}
 }
 .triangle2{
 	background: url("../assets/media/about_us/about_us/bgvideo.jpg") no-repeat scroll center center #000000;
