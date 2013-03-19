@@ -2027,7 +2027,27 @@ footer
 
   	opacity: 0;/* Other browsers */		
 
+  	
+
 }
+
+
+.opacity_{
+
+  	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";/* IE 8 */  	
+
+  	filter: alpha(opacity=0);/* IE 5-7 */  	
+
+  	-moz-opacity: 0;/* Netscape */  	
+
+  	-khtml-opacity: 0;/* Safari 1.x */  	
+
+  	opacity: 0;/* Other browsers */		
+
+  	margin-left: 55px;
+
+}
+
 
 .shadow-side-right
 
@@ -3164,6 +3184,24 @@ footer
 	background-image:url(../assets/loaders/loader.gif);
     background-repeat:no-repeat;
 	background-position:center;
+}
+
+.media-holder2
+
+{
+
+	clear:both;
+
+	float:left;
+
+	margin-top: 20px;
+
+	background-image:url(../assets/loaders/loader.gif);
+
+    background-repeat:no-repeat;
+
+	background-position:center;
+
 }
 
 
@@ -6843,7 +6881,7 @@ h1, h2, h3, h4, h5, h6
 
 	font-size:14px;
 
-	color:#3f3f3f; 
+	color:#c42634; 
 
 	text-align:center;
 
@@ -6861,7 +6899,7 @@ h1, h2, h3, h4, h5, h6
 
 	font-style:italic;
 
-	color:#909090;
+	color:#f7394a;
 
 }
 
