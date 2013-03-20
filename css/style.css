@@ -640,7 +640,7 @@ submenu holder has overflow hidden */
 
 	padding-left:14px;
 
-	font-family: CRegular; /*'Open Sans',sans-serif;*/
+	font-family: CBold; /*'Open Sans',sans-serif;*/
 
 	font-size: 12px;	
 
@@ -7647,6 +7647,13 @@ h2{
 	.li_nave{	visibility: hidden;}
 
 }
+@media only screen and (min-width: 200px) and (max-width: 1620px){
+	.t2_container11{
+		background-position: center bottom !important;
+	    background-size: 96% auto !important;
+	    width: 75% !important;
+	}
+}
 @media only screen and (min-width: 1100px) and (max-width: 1290px){
 	.li_nave{	visibility: hidden;}
 
@@ -7663,6 +7670,57 @@ h2{
 	.li_nave{	visibility: hidden;}
 
 }
+@media (min-height:400px) and (max-height:800px){
+	.t2_container11{height: 40% !important;}
+}
+@media (min-height:400px) and (max-height:800px){
+	.t1_container1{
+	background:url("../assets/media/about_us/about_us/A1.png");
+	background-size:84%;
+	background-repeat: no-repeat;
+    height: 95% !important;
+    width: 25% !important;
+	float: left;
+}
+.t1_container1:hover{
+	background: url("../assets/media/about_us/about_us/A1O.png") no-repeat scroll left top / 71% auto #FFFFFF;
+}
+.t1_container2{
+	background:url("../assets/media/about_us/about_us/A2.png") no-repeat scroll center top / 100% auto #FFFFFF;
+	background-size:84%;
+    height: 100% !important;
+    width: 25% !important;
+	float: left;
+}
+.t1_container2:hover{
+	background:url("../assets/media/about_us/about_us/A2O.png") top center no-repeat #FFFFFF;
+	background-size:84%;
+}
+.t1_container3{
+	background: url("../assets/media/about_us/about_us/A3.png") no-repeat scroll center top / 100% auto #FFFFFF;
+    float: left;
+    height: 90% !important;
+    margin-top: 7%;
+    width: 25% !important;
+}
+.t1_container3:hover{
+	 background: url("../assets/media/about_us/about_us/A3O.png") no-repeat scroll center top / 100% auto #FFFFFF;
+}
+.t1_container4{
+	background: url("../assets/media/about_us/about_us/A4.png") no-repeat scroll right top / 80% auto #FFFFFF;
+    float: left;
+    height: 90% !important;
+    margin-top: 6%;
+    width: 25% !important;
+}
+.t1_container4:hover{
+	background: url("../assets/media/about_us/about_us/A4O.png") ;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 80%;
+}
+}
+
 @media only screen and (min-width: 100px) and (max-width: 480px){
 	
 	.contact-information-responsive{display:block !important;}
@@ -8115,7 +8173,7 @@ tururu
 }
 .triangle1{
 	background-color: #FFFFFF;
-    height: 42% !important;
+    height: 47% !important;
     margin-top: -7%;
     min-height: 100px;
     transform: skewY(-8deg);
@@ -8133,15 +8191,15 @@ tururu
 	.triangle2{
 
     height: 28% !important;
-    min-height: 100px;
-    min-width: 608px;
+   	min-height: 180px !important;
+    min-width: 450px !important;
     transform: skewY(-7deg);
     width: 100% !important;
 	}
 }
 .triangle2{
-	background: url("../assets/media/about_us/about_us/bgvideo.jpg") no-repeat scroll center center #000000;
-    height: 28% !important;
+	background-color: #000000;
+    height: 35% !important;
     min-height: 100px;
     min-width: 800px;
     transform: skewY(-7deg);
@@ -8153,7 +8211,9 @@ tururu
     width: 100% !important;
 }
 .triangle3{
-	background: url("../assets/media/about_us/about_us/roboland.jpg") no-repeat scroll center center / 100% auto transparent;
+	background: url("../assets/media/about_us/about_us/triangle3.jpg") no-repeat;
+	background-size: 100%;
+	background-position: center center;
     height: 54% !important;
     transform: skewY(10deg);
     -ms-transform:  skewY(10deg); /* IE 9 */
@@ -8165,51 +8225,70 @@ tururu
 }
 .t1_container1,.t1_container2,.t1_container3,.t1_container4{cursor: pointer;}
 .t1_container1{
-	background: url("../assets/media/about_us/about_us/A1.png") no-repeat scroll left top / 71% auto #FFFFFF;
+	background: url("../assets/media/about_us/about_us/A1.png");
+    background-size: 71%;
+    background-repeat: no-repeat;
     float: left;
-    height: 95% !important;
+    height: 102% !important;
     margin-top: 0;
     width: 25% !important;
 }
 .t1_container1:hover{
-	background: url("../assets/media/about_us/about_us/A1O.png") no-repeat scroll left top / 71% auto #FFFFFF;
+	background: url("../assets/media/about_us/about_us/A1O.png");
+	background-size: 71%;
+	background-repeat: no-repeat;
 }
 .t1_container2{
-	background:url("../assets/media/about_us/about_us/A2.png") top center no-repeat #FFFFFF;
-	background-size:84%;
-    height: 100% !important;
+	background:url("../assets/media/about_us/about_us/A2.png");
+	background-size:77%;
+	background-repeat: no-repeat;
+    height: 104% !important;
     width: 25% !important;
 	float: left;
 }
 .t1_container2:hover{
-	background:url("../assets/media/about_us/about_us/A2O.png") top center no-repeat #FFFFFF;
-	background-size:84%;
+	background:url("../assets/media/about_us/about_us/A2O.png") no-repeat;
+	background-size:77%;
 }
 .t1_container3{
-	 background: url("../assets/media/about_us/about_us/A3.png") no-repeat scroll center top / 100% auto #FFFFFF;
-    float: left;
+	background: url("../assets/media/about_us/about_us/A3.png");
+   	background-size: 92%;
+    background-repeat: no-repeat;
     height: 90% !important;
     margin-top: 7%;
     width: 25% !important;
+    float: left;
 }
 .t1_container3:hover{
-	 background: url("../assets/media/about_us/about_us/A3O.png") no-repeat scroll center top / 100% auto #FFFFFF;
+	background: url("../assets/media/about_us/about_us/A3O.png");
+	background-size: 92%;
+    background-repeat: no-repeat;
 }
 .t1_container4{
-	background: url("../assets/media/about_us/about_us/A4.png") no-repeat scroll right top / 80% auto #FFFFFF;
+	background: url("../assets/media/about_us/about_us/A4.png") no-repeat;
+	background-size: 80%;
     float: left;
     height: 90% !important;
     margin-top: 6%;
     width: 25% !important;
 }
 .t1_container4:hover{
-	background: url("../assets/media/about_us/about_us/A4O.png") no-repeat scroll right top / 80% auto #FFFFFF;
+	background: url("../assets/media/about_us/about_us/A4O.png") no-repeat;
+	background-size: 80%;
 }
 .t2_container1{
-	background: url("../assets/media/about_us/about_us/bgvideo.png") repeat scroll right top / 100% auto #000;
+	background-color:#000;
     height: 260%;
     margin-top: 1%;
     width: 100%;
+}
+.t2_container11{
+	background: url("../assets/media/about_us/about_us/bgvideo.png") no-repeat;
+	height: 33%;
+	width: 60%;
+	max-height: 400px;
+	max-width: 980px;
+   	margin: 1% auto auto auto;
 }
 #preloader_landing {
   /* la lista de imágenes a cargar */
