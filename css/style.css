@@ -6238,9 +6238,10 @@ h2{
 
     position:relative;
 
-	float:left;
+/*	float:left;*/
+   margin: 0 auto;
 
-	width: 610px;  
+	width: 780px;  
 
 	height: 100px;
 
@@ -6280,10 +6281,10 @@ h2{
 
 	font-size:18px;
 
-	color:#FFFFFF;
+	color:#686868;
 
     text-align:left;
-
+     width: 515px;
 	
 
 		
@@ -6301,6 +6302,7 @@ h2{
 	font-size:13px;
 
 	text-align:justify;
+	 width: 515px;
 
 }
 
@@ -7701,10 +7703,15 @@ h2{
 	.module-home-layout3{ width: 824px; } #home-video-block{ width: 572px; height: 337px; }	
 	#home-advertise, #home-advertise1, #home-advertise2{ height: 158px; width: 170px; } .advertise-image, #home-advertise img{ height: 120px; width: 170px; }
 	.module-galleries{ width: 722px; }
+
+}
+@media only screen	 and 	(min-width: 1400px)and (max-width: 1600px){
+	.wrapper_text{	float: left;  width: 1005px;  margin-left: -6%;}
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
-	.wrapper_text{	float: left; width: 30%;}
+	.wrapper_text{	float: left; width: 30%; width: 1155px;  margin-left: -6%;}
 	.template-logo{ margin-left: -80px; }
 	.template-menu{ margin: 0px; }
     #audio-player{left: 0px;}
@@ -8288,7 +8295,7 @@ tururu
 	position: relative;
 	padding-top: 55px;
 	font-family: CRegular;
-	margin-left: 10%; width: 1275px;
+	margin-left: 10%; width: 1000px;
 
 }
 .lets{
