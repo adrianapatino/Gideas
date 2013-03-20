@@ -7705,8 +7705,8 @@ h2{
 	.module-galleries{ width: 722px; }
 
 }
-@media only screen	 and 	(min-width: 1400px)and (max-width: 1600px){
-	.wrapper_text{	float: left;  width: 1005px;  margin-left: -6%;}
+@media only screen	 and 	(min-width: 500px)and (max-width: 1600px){
+	.wrapper_text{	float: left;  width: 55% !important; }
 
 }
 
