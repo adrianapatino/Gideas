@@ -4914,7 +4914,7 @@ footer
 
 }
 
-h1, h2, h3, h4, h5, h6
+h1, h3, h4, h5, h6
 
 {
 
@@ -4928,6 +4928,19 @@ h1, h2, h3, h4, h5, h6
 
     margin-bottom: 10px;
 
+}
+
+
+h2{
+	color: #cccccc;
+
+    font-family:CRegular,'Open Sans','Lucida Sans Unicode','Lucida Grande',sans-serif;
+
+    font-weight: normal;
+
+    line-height: 125%;
+
+    margin-bottom: 10px;
 }
 
 #pricing-column-holder-features ul, #pricing-column-holder ul
@@ -6877,7 +6890,6 @@ h1, h2, h3, h4, h5, h6
 
 	font-family:CRegular;
 
-	font-weight: normal;
 
 	font-size:14px;
 
@@ -6899,7 +6911,15 @@ h1, h2, h3, h4, h5, h6
 
 	font-style:italic;
 
-	color:#f7394a;
+	color:#706f6f;
+
+
+
+}
+
+.thumb-tag h1{
+
+	font-weight: bold;
 
 }
 
