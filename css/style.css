@@ -1237,6 +1237,7 @@ footer
 
 	width: 100%;    
 
+	margin-top: -21px;
 }
 
 #footer-copyright a
@@ -6302,7 +6303,7 @@ h2{
 	font-size:13px;
 
 	text-align:justify;
-	 width: 515px;
+	    width: 75%;
 
 }
 
@@ -7748,7 +7749,12 @@ h2{
 	.jobsHoldercontainer{margin-top: 22.3%;}
 }
 
-@media only screen and (min-width: 200px) and (max-width: 1030px){}
+@media only screen and (min-width: 200px) and (max-width: 1030px){
+
+	.titulo{
+	margin-top: -218% !important;
+}
+}
 @media only screen and (min-width: 1025px) and (max-width: 1200px){
 	#standard-banner{ height: 363px; }
 	.home-layout2-content ul{ margin: 0px 21px; }
@@ -7763,10 +7769,21 @@ h2{
 	.module-galleries{ width: 722px; }
 
 }
-@media only screen	 and 	(min-width: 500px)and (max-width: 1600px){
-	.wrapper_text{	float: left;  width: 55% !important; }
+@media only screen	 and 	(min-width: 250px)and (max-width: 1610px){
+	.wrapper_text{	float: inherit;
+	  width: 85% !important;
+	  text-align: justify; 
+		font-size:12px; 
+	}
+	.wrapper_nave{
+		margin-left: 6% !important;
+		margin-top: 2% !important;
+	}
+
 
 }
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
 	.wrapper_text{	float: left; width: 30%; width: 1155px;  margin-left: -6%;}
@@ -8391,3 +8408,7 @@ tururu
 }
 .hpdescription{font-size: 17px !important;}
 .hpdescription strong{font-family: CBold !important;}
+
+.titulo{
+	margin-top: -218%;
+}
