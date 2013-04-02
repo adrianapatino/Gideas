@@ -3062,6 +3062,8 @@ footer
 
 	left: 0px;
 
+	width: 100%;
+
 
 }
 
@@ -7771,13 +7773,16 @@ h2{
 }
 @media only screen	 and 	(min-width: 250px)and (max-width: 1610px){
 	.wrapper_text{	float: inherit;
-	  width: 85% !important;
+	  width: 50% !important;
 	  text-align: justify; 
 		font-size:12px; 
+		margin-top: 22%;
+		  left: 11%;
 	}
 	.wrapper_nave{
 		margin-left: 6% !important;
 		margin-top: 2% !important;
+		display: none;
 	}
 
 
@@ -7905,7 +7910,7 @@ h2{
 
 	#menu-hider-icon{ background-position: -299px -200px; height: 28px; width: 38px; left:50%; top: 3px; margin-left: -15px; }
 
-	.wrapper_text{	float: left;}
+	.wrapper_text{	 float: left;    margin-top: 20%;}
 
 	
 
@@ -8048,8 +8053,8 @@ tururu
            float: right;
             width: 150px;
             display: none;
-            margin-right: -130px;
-            margin-top: -270px;
+            margin-right: -200px;
+            margin-top: -220px;
          
         }
 
