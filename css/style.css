@@ -2179,18 +2179,13 @@ footer
 
 }
 
-#module-scrollbar-dragger
-
-{
-
+#module-scrollbar-dragger{
+	background-color: #B8B8B8;
+    border: 2px solid #818181;
 	position:absolute;
-
 	top: 0px;
-
 	width: 100%;
-
 	height: 100px; 	
-
 }
 
 
@@ -3814,106 +3809,58 @@ footer
 
 .custom-separator-preview-news{ margin-top: 0px; margin-bottom:20px; }
 
-.media-holder-news-preview
-
-{
-
+.media-holder-news-preview{
 	clear:both;
-
 	width: 100%;
-
 	height: 100px;
-
 	overflow:hidden;
-
 	float:left;
-
 	margin-top: 22px;
-
 	background-image:url(../assets/loaders/loader_circle.gif);
-
     background-repeat:no-repeat;
-
 	background-position:center;
-
 }
 
 /* ============================ 6. CONTACT ========================= */
 
 #module-contact-container{
-
 	display: inline-block;
-
     position: relative;
-
 	width:100%;
-
 }
 
-#map-holder, #media-holder-contact
-
-{
-
+#map-holder, #media-holder-contact{
 	position:relative;
-
 	float:left;
-
 	width: 100%;
-
 	height: 360px;
-
 	z-index:2;	
-
 	display:none;
-
 	background-image:url(../assets/loaders/loader.gif);
-
     background-repeat:no-repeat;
-
 	background-position:center;
-
 	background-color: #f5f5f5;
-
 }
 
 #media-holder-contact{ display: inline-block; overflow:hidden;}
 
-#map-holder iframe
-
-{
-
+#map-holder iframe{
 	position:absolute;
-
 	top: 0px;
-
 	left: 0px;
-
 	width: 100%;
-
 	height: 100%;
-
 	display:none;	
-
 }
 
-#module-contact
-
-{
-
+#module-contact{
 	clear:both;
-
 	position:relative;
-
 	float:left;
-
 	z-index:3;
-
 	width:100%;
-
 	height:330px;
-
 	visibility:hidden;
-
 }
 
 .module-contact-background{
@@ -3922,37 +3869,176 @@ footer
 	width:100%;
 	height:100%;
   	background-repeat: no-repeat;
-
 }
 
 
-.module-jobs-background
-
-{
-
+.module-jobs-background{
   	position:relative;
-
 	float:left;
-
 	width:100%;
-
 	height:100%;
-
-
-  	
   	background-repeat: no-repeat;
 
 }
 
-
-#module-contact-holder{
-	position:absolute;
-	width: 635px;	
-	right:0;
-	margin-top: 31.3%;
+#square1,#square2,#square3,#square4,#square5,#square6,#square7,#square8,#square9,#square10,#square18,#square19,#square20,#square21,#square22,#square23,#square24,#square25,#square26,#square27{width:20%;height:15.5%;float: left;}  
+#square11,#square12,#square13{float: left;height:40%}
+#square11,#square13{width: 20%;}
+#square1{
+	background: url("../assets/media/jobs/squareadmin.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
 }
+#square2{
+	background: url("../assets/media/jobs/squarecomercial.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}  
+#square3{
+	background: url("../assets/media/jobs/square3.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}  
+#square4{
+	background: url("../assets/media/jobs/squareproduccion.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}  
+#square5{
+	background: url("../assets/media/jobs/square5.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}  
+#square6{
+	background: url("../assets/media/jobs/square6.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}  
+#square7{
+	background: url("../assets/media/jobs/square7.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}  
+#square8{
+	background: url("../assets/media/jobs/square8.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}  
+#square9{
+	background: url("../assets/media/jobs/square9.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}  
+#square10{
+	background: url("../assets/media/jobs/squarepr.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square14{
+	background: url("../assets/media/jobs/squaredesign.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square14{
+	background: url("../assets/media/jobs/squaredesign.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square15{
+	background: url("../assets/media/jobs/squarecreativo.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square16{
+	background: url("../assets/media/jobs/squarepromocion.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square17{
+	background: url("../assets/media/jobs/squarerecursoshumanos.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square18{
+	background: url("../assets/media/jobs/square11.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square19{
+	background: url("../assets/media/jobs/square12.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square20{
+	background: url("../assets/media/jobs/square13.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square21{
+	background: url("../assets/media/jobs/square14.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square22{
+	background: url("../assets/media/jobs/square16.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square23{
+	background: url("../assets/media/jobs/square17.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square24{
+	background: url("../assets/media/jobs/square18.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square25{
+	background: url("../assets/media/jobs/square19.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square26{
+	background: url("../assets/media/jobs/square20.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square27{
+	background: url("../assets/media/jobs/square22.png") no-repeat center center;
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+#square12{width: 60%; background:url("../assets/media/jobs/bgform.png");}
+#square11 .twor,#square13 .twor{width: 100%;height: 50%;float: left;}
+.modaldesc{
+	display:none;
+	position: absolute;
+	width: 20%;
+	height: 15.5%;
+	background-color: #000000;
+	
+}
+#square11 .modaldesc, #square13 .modaldesc{height: 20% !important;}
 
+@media only screen and (min-width: 100px) and (max-width: 1290px){
+	#square11,#square13{display:none;}
+	#square12{width: 100% !important;height: 80% !important;}
+	.shidden{display: none;}
+	.squaredesc,#square9{height: 20% !important;}
 
+	.contact-information {
+	    height: 245px;
+	    margin-left: 5px !important;
+	    margin-right: 5px !important;
+	    width: 45% !important;
+	}
+	.contact-information-title {width: 50%;}
+}
+@media only screen and (min-width: 50px) and (max-width: 700px){
+	.squaredesc,#square9{display: none;}
+	#square12{height: 100% !important;}
+}
 #module-jobs-holder{
 	position:absolute;
 	width: 635px;	
@@ -3994,45 +4080,26 @@ footer
 .contact-information-details img
 
 {
-
 	position:relative;
-
 	float: left;
-
 	width: 30px;
-
 	height: 30px;
-
 }
 
-.contact-information-details p
-
-{
-
+.contact-information-details p{
 	position:relative;
-
 	float: left;
-
 	width: 160px;
-
 	margin-left: 15px;
-
 	margin-top: 8px;
-
 	font-family:CRegular;
-
 	font-weight: normal;
-
 	font-size:14px;
-
 	color:#FFF; 
-
 	text-align:left;
-
 }
 
 .contact-information-details p a
-
 {
 
 	position:relative;
@@ -6302,7 +6369,7 @@ h2{
 	font-size:13px;
 
 	text-align:justify;
-	 width: 515px;
+	    width: 75%;
 
 }
 
@@ -7647,13 +7714,7 @@ h2{
 	.li_nave{	visibility: hidden;}
 
 }
-@media only screen and (min-width: 200px) and (max-width: 1620px){
-	.t2_container11{
-		background-position: center bottom !important;
-	    background-size: 96% auto !important;
-	    width: 75% !important;
-	}
-}
+
 @media only screen and (min-width: 1100px) and (max-width: 1290px){
 	.li_nave{	visibility: hidden;}
 
@@ -7670,56 +7731,9 @@ h2{
 	.li_nave{	visibility: hidden;}
 
 }
-@media (min-height:400px) and (max-height:800px){
-	.t2_container11{height: 40% !important;}
-}
-@media (min-height:400px) and (max-height:800px){
-	.t1_container1{
-	background:url("../assets/media/about_us/about_us/A1.png");
-	background-size:84%;
-	background-repeat: no-repeat;
-    height: 95% !important;
-    width: 25% !important;
-	float: left;
-}
-.t1_container1:hover{
-	background: url("../assets/media/about_us/about_us/A1O.png") no-repeat scroll left top / 71% auto #FFFFFF;
-}
-.t1_container2{
-	background:url("../assets/media/about_us/about_us/A2.png") no-repeat scroll center top / 100% auto #FFFFFF;
-	background-size:84%;
-    height: 100% !important;
-    width: 25% !important;
-	float: left;
-}
-.t1_container2:hover{
-	background:url("../assets/media/about_us/about_us/A2O.png") top center no-repeat #FFFFFF;
-	background-size:84%;
-}
-.t1_container3{
-	background: url("../assets/media/about_us/about_us/A3.png") no-repeat scroll center top / 100% auto #FFFFFF;
-    float: left;
-    height: 90% !important;
-    margin-top: 7%;
-    width: 25% !important;
-}
-.t1_container3:hover{
-	 background: url("../assets/media/about_us/about_us/A3O.png") no-repeat scroll center top / 100% auto #FFFFFF;
-}
-.t1_container4{
-	background: url("../assets/media/about_us/about_us/A4.png") no-repeat scroll right top / 80% auto #FFFFFF;
-    float: left;
-    height: 90% !important;
-    margin-top: 6%;
-    width: 25% !important;
-}
-.t1_container4:hover{
-	background: url("../assets/media/about_us/about_us/A4O.png") ;
-	background-repeat: no-repeat;
-	background-position: right top;
-	background-size: 80%;
-}
-}
+
+
+
 
 @media only screen and (min-width: 100px) and (max-width: 480px){
 	
@@ -7748,7 +7762,12 @@ h2{
 	.jobsHoldercontainer{margin-top: 22.3%;}
 }
 
-@media only screen and (min-width: 200px) and (max-width: 1030px){}
+@media only screen and (min-width: 200px) and (max-width: 1030px){
+
+	.titulo{
+	margin-top: -218% !important;
+}
+}
 @media only screen and (min-width: 1025px) and (max-width: 1200px){
 	#standard-banner{ height: 363px; }
 	.home-layout2-content ul{ margin: 0px 21px; }
@@ -7763,10 +7782,21 @@ h2{
 	.module-galleries{ width: 722px; }
 
 }
-@media only screen	 and 	(min-width: 500px)and (max-width: 1600px){
-	.wrapper_text{	float: left;  width: 55% !important; }
+@media only screen	 and 	(min-width: 250px)and (max-width: 1610px){
+	.wrapper_text{	float: inherit;
+	  width: 85% !important;
+	  text-align: justify; 
+		font-size:12px; 
+	}
+	.wrapper_nave{
+		margin-left: 6% !important;
+		margin-top: 2% !important;
+	}
+
 
 }
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
 	.wrapper_text{	float: left; width: 30%; width: 1155px;  margin-left: -6%;}
@@ -8171,59 +8201,125 @@ tururu
 	float: left;
 	cursor: pointer;
 }
-.triangle1{
-	background-color: #FFFFFF;
-    height: 47% !important;
-    margin-top: -7%;
-    min-height: 100px;
-    transform: skewY(-8deg);
-    -ms-transform:  skewY(-8deg); /* IE 9 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=-0.14054083470239048, M22=1, SizingMethod='auto expand')"; /* IE8 */
-	-webkit-transform:  skewY(-8deg); /* Safari and Chrome */
-	-o-transform:  skewY(-8deg); /* Opera */
-	-moz-transform:  skewY(-8deg); /* Firefox */
-    width: 100% !important;
-}
+
+/**HOME PAGE RESPONSIVE STYLES **/
 @media only screen and (min-width: 50px) and (max-width: 700px){
-	 .triangle1{
-	 height: 25% !important;
+	.triangle1{
+	 	height: 25% !important;
 	}
 	.triangle2{
-
-    height: 28% !important;
-   	min-height: 180px !important;
-    min-width: 450px !important;
-    transform: skewY(-7deg);
-    width: 100% !important;
+	    height: 28% !important;
+	    width: 100% !important;
 	}
 }
+@media only screen and (min-width: 200px) and (max-width: 1620px){
+	.t2_container11{
+		background-position: center !important;
+	    background-size: 96% !important;
+	    width: 75% !important;
+	}
+}
+@media (min-height:400px) and (max-height:800px){
+	.t2_container11{height: 40% !important;}
+}
+@media (min-height:400px) and (max-height:800px){
+	.t1_container1{
+		background:url("../assets/media/about_us/about_us/A1.png");
+		background-size:84%;
+		background-repeat: no-repeat;
+	    height: 95% !important;
+	    width: 25% !important;
+		float: left;
+	}
+	.t1_container1:hover{background-size:84%;}
+
+	.t1_container2{
+		background:url("../assets/media/about_us/about_us/A2.png") no-repeat;
+		background-size:84%;
+	    height: 100% !important;
+	    width: 25% !important;
+		float: left;
+	}
+	.t1_container2:hover{
+		background-size:84%;
+	}
+	.t1_container3{
+		background: url("../assets/media/about_us/about_us/A3.png") no-repeat;
+	    height: 90% !important;
+	    margin-top: 7%;
+	    width: 25% !important;
+	    float: left;
+	}
+	.t1_container3:hover{
+		 background: url("../assets/media/about_us/about_us/A3O.png") no-repeat;
+	}
+	.t1_container4{
+		background: url("../assets/media/about_us/about_us/A4.png") no-repeat;
+	    float: left;
+	    height: 90% !important;
+	    margin-top: 6%;
+	    width: 25% !important;
+	}
+	.t1_container4:hover{
+		background: url("../assets/media/about_us/about_us/A4O.png") ;
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-size: 80%;
+	}
+}
+
+.triangle1{
+	behavior:url(resource/-ms-transform.htc);
+	-webkit-transform:  rotate(-8deg); /* Safari and Chrome */
+	 -moz-transform:  rotate(-8deg); /* Firefox */
+	  //-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.8, M12=-0.2, M21=0.2, M22=0.8, SizingMethod='auto expand')";
+	    //filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.8,M12=-0.2,M21=0.2,M22=0.8,SizingMethod='auto expand');
+	    -ms-transform:  rotate(-8deg); /* IE 9 */
+	     //-o-transform:  rotate(-8deg); /* Opera */
+	      transform: rotate(-8deg);
+	background-color: #FFFFFF;
+    height: 47% !important;
+    min-height: 100px;
+    width: 108% !important;
+    margin-left: -1%;
+    margin-top: -8%;
+}
+
 .triangle2{
+	behavior:url(resource/-ms-transform.htc);
+	-webkit-transform:  rotate(-7deg); /* Safari and Chrome */
+	 -moz-transform:  rotate(-7deg); /* Firefox */
+	  // -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.8, M12=-0.2, M21=0.2, M22=0.8, SizingMethod='auto expand')";
+	    //filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.8,M12=-0.2,M21=0.2,M22=0.8,SizingMethod='auto expand');
+	    -ms-transform:  rotate(-7deg); /* IE 9 */
+	     //-o-transform:  rotate(-7deg); /* Opera */
+	      transform: rotate(-7deg);
 	background-color: #000000;
     height: 35% !important;
-    min-height: 100px;
-    min-width: 800px;
-    transform: skewY(-7deg);
-	-ms-transform:  skewY(-7deg); /* IE 9 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=-0.12278456090290474, M22=1, SizingMethod='auto expand')"; /*IE8*/
-	-webkit-transform:  skewY(-7deg); /* Safari and Chrome */
-	-o-transform:  skewY(-7deg); /* Opera */
-	-moz-transform:  skewY(-7deg); /* Firefox */
-    width: 100% !important;
+    margin-left: -2%;
+    width: 106% !important;
 }
+
 .triangle3{
+	behavior:url(resource/-ms-transform.htc);
+	-webkit-transform:  rotate(10deg); /* Safari and Chrome */
+	 -moz-transform:  rotate(10deg); /* Firefox */
+	    //-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.8, M12=-0.2, M21=0.2, M22=0.8, SizingMethod='auto expand')";
+	   // filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.8,M12=-0.2,M21=0.2,M22=0.8,SizingMethod='auto expand');
+	    -ms-transform:  rotate(10deg); /* IE 9 */
+	    // -o-transform:  rotate(10deg); /* Opera */
+	      transform: rotate(10deg);
 	background: url("../assets/media/about_us/about_us/triangle3.jpg") no-repeat;
 	background-size: 100%;
 	background-position: center center;
     height: 54% !important;
-    transform: skewY(10deg);
-    -ms-transform:  skewY(10deg); /* IE 9 */
-    ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=0, M21=0.17632698070846592, M22=1, SizingMethod='auto expand')"; /*IE8*/
-	-webkit-transform:  skewY(10deg); /* Safari and Chrome */
-	-o-transform:  skewY(10deg); /* Opera */
-	-moz-transform:  skewY(10deg); /* Firefox */
-    width: 100% !important;
+    width: 117% !important;
+    margin-left: -15%;
+    margin-top: -5%;
 }
+
 .t1_container1,.t1_container2,.t1_container3,.t1_container4{cursor: pointer;}
+.triangle1 a{padding: 70% 184%;}
 .t1_container1{
 	background: url("../assets/media/about_us/about_us/A1.png");
     background-size: 71%;
@@ -8238,6 +8334,7 @@ tururu
 	background-size: 71%;
 	background-repeat: no-repeat;
 }
+
 .t1_container2{
 	background:url("../assets/media/about_us/about_us/A2.png");
 	background-size:77%;
@@ -8250,6 +8347,7 @@ tururu
 	background:url("../assets/media/about_us/about_us/A2O.png") no-repeat;
 	background-size:77%;
 }
+
 .t1_container3{
 	background: url("../assets/media/about_us/about_us/A3.png");
    	background-size: 92%;
@@ -8264,6 +8362,7 @@ tururu
 	background-size: 92%;
     background-repeat: no-repeat;
 }
+
 .t1_container4{
 	background: url("../assets/media/about_us/about_us/A4.png") no-repeat;
 	background-size: 80%;
@@ -8276,6 +8375,7 @@ tururu
 	background: url("../assets/media/about_us/about_us/A4O.png") no-repeat;
 	background-size: 80%;
 }
+
 .t2_container1{
 	background-color:#000;
     height: 260%;
@@ -8290,22 +8390,23 @@ tururu
 	max-width: 980px;
    	margin: 1% auto auto auto;
 }
+
 #preloader_landing {
-  /* la lista de imágenes a cargar */
   background-image: url("../assets/media/about_us/about_us/A1O.png");
   background-image: url("../assets/media/about_us/about_us/A2O.png");
   background-image: url("../assets/media/about_us/about_us/A3O.png");
   background-image: url("../assets/media/about_us/about_us/A4O.png");
-  /* y ocultaremos todo */
   height: 0px;
   display: inline;
   margin: 0;
   padding: 0;
   width: 0px;
 }
+
 .weare_videocontainer{
 	margin: auto;
 }
+
 /*******JOB FORM STYLES *************/
 #jobcontact-form .form-input-label{
 	min-width: 100px;
@@ -8391,3 +8492,7 @@ tururu
 }
 .hpdescription{font-size: 17px !important;}
 .hpdescription strong{font-family: CBold !important;}
+
+.titulo{
+	margin-top: -218%;
+}
